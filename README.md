@@ -1,5 +1,5 @@
 # swapfile8.github.io
 
-This is a web file server.
+Internet file server.
 
-  - vred.json - video episode to id translation configuration file.
+  - vred.json - video episode to id translation configuration file for bdys.
