@@ -2,7 +2,7 @@
   "auth_wallpaper": {
     "w": 750,
     "h": 1500,
-    "prompt": "start",
+    "justify": "start",
     "url": "https://swapfile8.github.io/wdts/auth_02.jpg"
   }
 }
