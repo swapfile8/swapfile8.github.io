@@ -3,7 +3,8 @@
     "w": 750,
     "h": 1500,
     "justify": "center",
-    "half": true,
+    "half": false,
+    "reverse": false,
     "url": "https://swapfile8.github.io/wdts/auth_02.jpg"
   }
 }
