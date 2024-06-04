@@ -22,5 +22,21 @@
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/auth_03.jpg"
-  }  
+  },
+  "auth_wallpaper_04": {
+    "w": 493,
+    "h": 877,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_04.jpg"
+  },
+  "auth_wallpaper_05": {
+    "w": 736,
+    "h": 1313,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_05.jpg"
+  }
 }
