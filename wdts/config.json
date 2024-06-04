@@ -1,4 +1,12 @@
 {
+    "auth_wallpaper_01": {
+    "w": 736,
+    "h": 1472,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_01.jpg"
+  },
   "auth_wallpaper_02": {
     "w": 750,
     "h": 1500,
