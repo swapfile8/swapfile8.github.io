@@ -2,7 +2,6 @@
   "d2": {
     "title": "三体 第一季",
     "url": "https://www.yjys02.com/meiju/24690.htm",
-    "poster": "https://wework.qpic.cn/wwpic3az/888803_lW3mu_7OS8K6nVy_1711086821/0",
     "1": 176733,
     "2": 176734,
     "3": 176735,
@@ -15,7 +14,6 @@
   "d3": {
     "title": "墨雨云间",
     "url": "https://www.yjys02.com/guoju/24881.htm",
-    "poster": "https://wework.qpic.cn/wwpic3az/423465_3eCoEwvNQhaOon6_1717424071/0",
     "1": 179148,
     "2": 179149,
     "3": 179150,
@@ -60,7 +58,6 @@
   "d4": {
     "title": "玩家2：玩家的战争",
     "url": "https://www.yjys02.com/hanju/24907.htm",
-    "poster": "https://wework.qpic.cn/wwpic3az/319807_9tZzMQYJQRqQcb4_1718286864/0",
     "1": 179457,
     "2": 179458,
     "3": 179459,
@@ -71,7 +68,6 @@
 "d5": {
     "title": "联结",
     "url": "https://www.yjys02.com/hanju/24886.htm",
-    "poster": "https://wework.qpic.cn/wwpic3az/462583_gdG47vq7SIukaxg_1717482762/0",
     "1": 179182,
     "2": 179183,
     "3": 179184,
@@ -81,5 +77,17 @@
     "7": 179893,
     "8": 179894,
     "9": 179895
+  },
+  "d6": {
+    "title": "你比星光美丽",
+    "url": "https://www.yjys02.com/guoju/24960.htm",
+    "1": 180230,
+    "2": 180231,
+    "3": 180232,
+    "4": 180233,
+    "5": 180337,
+    "6": 180338,
+    "7": 180358,
+    "8": 180359
   }
 }
