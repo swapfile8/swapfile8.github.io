@@ -1,6 +1,7 @@
 {
   "config": {
-    "vred": "https://wdfy.netlify.app/vr"
+    "vred": "https://wdfy.netlify.app/vr",
+    "autoupdate": 1
   },
   "d2": {
     "1": 176733,
