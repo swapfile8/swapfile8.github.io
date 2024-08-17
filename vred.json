@@ -1,5 +1,6 @@
 {
   "config": {
+    "baseurl": "https://www.yjys02.com",
     "vred": "https://wdfy.netlify.app/vr"
   },
   "d2": {
