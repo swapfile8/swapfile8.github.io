@@ -1,7 +1,7 @@
 {
   "config": {
-    "base_url": "https://www.yjys02.com",
-    "m3u8_tags": "tos_hls3 pxx iplay",
+    "baseurl": "https://www.yjys02.com",
+    "m3u8s": "tos_hls3 pxx iplay",
     "vred": "https://wdfy.netlify.app/vr"
   },
   "d2": {
