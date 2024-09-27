@@ -1,6 +1,7 @@
 {
   "config": {
-    "baseurl": "https://www.yjys02.com",
+    "base_url": "https://www.yjys05.com",
+    "baseurl_save": "https://www.yjys02.com",
     "tags": "tos_hls3 pxx iplay",
     "vred": "https://vr-route.netlify.app/vr",
     "vred_save": "https://wdfy.netlify.app/vr"
@@ -143,5 +144,24 @@
     "10": 183285,
     "title": "半熟男女",
     "url": "https://www.yjys02.com/guoju/25246.htm"
+  },
+  "d20": {
+    "1": 183179,
+    "2": 183180,
+    "3": 183181,
+    "4": 183182,
+    "5": 183251,
+    "6": 183252,
+    "7": 183267,
+    "8": 183268,
+    "9": 183284,
+    "10": 183285,
+    "11": 183314,
+    "12": 183315,
+    "13": 183380,
+    "14": 183403,
+    "15": 183418,
+    "title": "半熟男女",
+    "url": "https://www.yjys05.com/guoju/25246.htm"
   }
 }
