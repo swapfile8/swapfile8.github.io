@@ -1,10 +1,8 @@
 {
   "config": {
     "base_url": "https://www.yjys05.com",
-    "baseurl_save": "https://www.yjys02.com",
-    "tags": "tos_hls3 pxx iplay",
-    "vred": "https://vr-route.netlify.app/vr",
-    "vred_save": "https://wdfy.netlify.app/vr"
+    "m3u8_tags": "tos_hls3 pxx iplay",
+    "vred": "https://vr-route.netlify.app/vr"
   },
   "d2": {
     "1": 176733,
