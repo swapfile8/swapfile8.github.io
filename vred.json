@@ -2,7 +2,7 @@
   "config": {
     "base_url": "https://www.yjys05.com",
     "m3u8_tags": "tos_hls3 pxx iplay",
-    "tabbed_list_video": true,
+    "search_is_list_video": true,
     "vred": "https://vr-route.netlify.app/vr"
   },
   "d2": {
