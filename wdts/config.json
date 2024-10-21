@@ -66,7 +66,7 @@
   "auth_wallpaper_09": {
     "w": 560,
     "h": 1280,
-    "justify": "center",
+    "justify": "start",
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/auth_09.jpg"
