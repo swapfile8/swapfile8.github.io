@@ -1,0 +1,15 @@
+{
+    "duboku": {
+        "config": {
+            base_url: "https://u.duboku.io"
+        },
+        "videos": {
+            "1": {
+                "name": "春花焰",
+                "url": "/voddetail/4922.html",
+                "episodes": {
+                }
+            }
+        }
+    }
+}
