@@ -1,7 +1,7 @@
 {
     "duboku": {
         "config": {
-            base_url: "https://u.duboku.io"
+            "base_url": "https://u.duboku.io"
         },
         "videos": {
             "1": {
