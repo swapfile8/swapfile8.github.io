@@ -3,6 +3,7 @@
     "sites": [
         "duboku": {
             "site_base_url": "https://u.duboku.io",
+            "video_base_url": "https://swapfile8.github.io/doboku"
             "videos": {
                 "1": {
                     "name": "春花焰",
