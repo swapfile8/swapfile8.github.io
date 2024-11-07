@@ -5,16 +5,6 @@
             "site_base_url": "https://u.duboku.io",
             "video_base_url": "https://swapfile8.github.io/vr2/doboku",
             "videos": {
-                "1": {
-                    "name": "春花焰",
-                    "url": "/voddetail/4922.html",
-                    "episodes": {
-                        "13": "ep13.m3u8",
-                        "14": "ep14.m3u8",
-                        "15": "ep15.m3u8",
-                        "16": "ep16.m3u8"
-                    }
-                }
             }
         }
     }
