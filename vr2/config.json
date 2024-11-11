@@ -5,15 +5,6 @@
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
       "videos": {
-        "4": {
-          "name": "江南B-Side",
-          "image": "https://pub.duboku.net/upload/vod/20241106-1/ba854f68f4da2cff33be5993af93d17b.jpg",
-          "url": "/voddetail/4982.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8"
-          }
-        }
       }
     }
   }
