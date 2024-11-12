@@ -1,5 +1,4 @@
 {
-  "current_site": "duboku",
   "sites": {
     "duboku": {
       "site_base_url": "https://u.duboku.io",
@@ -14,6 +13,12 @@
             "2": "ep2.m3u8"
           }
         }
+      }
+    },
+    "xiaoxintv": {
+      "site_base_url": "https://xiaoxintv.cc",
+      "video_base_url": "self",
+      "videos": {
       }
     }
   }
