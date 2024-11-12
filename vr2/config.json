@@ -19,6 +19,15 @@
       "site_base_url": "https://xiaoxintv.cc",
       "video_base_url": "self",
       "videos": {
+        "1": {
+          "name": "江南重案组",
+          "image": "https://huawei8.live/upload/vod/20241106-1/aa73fe7ca29cda26add944fbd2e9d075.webp",
+          "url": "/index.php/vod/detail/id/114144.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8"
+          }
+        }
       }
     }
   }
