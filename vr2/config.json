@@ -27,6 +27,15 @@
             "1": "ep1.m3u8",
             "2": "ep2.m3u8"
           }
+        },
+        "2": {
+          "name": "致我的解离",
+          "image": "https://huawei8.live/upload/vod/20240925-1/6437d695acf123870bbcd919c72583c2.webp",
+          "url": "/index.php/vod/detail/id/105406.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8"
+          }
         }
       }
     }
