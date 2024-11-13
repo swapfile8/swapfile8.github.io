@@ -4,20 +4,11 @@
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
       "videos": {
-        "1": {
-          "name": "Face Me",
-          "image": "https://pub.duboku.net/upload/vod/20241106-1/2bba81ddf49b0878fc5960949e263333.jpg",
-          "url": "/voddetail/4987.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8"
-          }
-        }
       }
     },
     "xiaoxintv": {
       "site_base_url": "https://xiaoxintv.cc",
-      "video_base_url": "self_parse:\\bplayer_aaaa *= *(\\{.+?\\})",
+      "video_base_url": "parse:\\bplayer_aaaa *= *(\\{.+?\\})",
       "videos": {
         "1": {
           "name": "江南重案组",
