@@ -18,7 +18,7 @@
     },
     "xiaoxintv": {
       "site_base_url": "https://xiaoxintv.cc",
-      "video_base_url": "https://vr2.netlify.app/scrape/xiaoxintv",
+      "video_base_url": "https://vr2.netlify.app/parse/xiaoxintv",
       "proxy_parser": true,
       "videos": {
         "1": {
