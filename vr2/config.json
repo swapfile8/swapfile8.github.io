@@ -18,8 +18,8 @@
     },
     "xiaoxintv": {
       "site_base_url": "https://xiaoxintv.cc",
-      "video_base_url": "https://xiaoxintv.cc",
-      "self_parse": "parse:\\bplayer_aaaa *= *(\\{.+?\\})",
+      "video_base_url": "https://vr2.netlify.app/scrape/xiaoxintv",
+      "proxy_parser": true,
       "videos": {
         "1": {
           "name": "江南重案组",
