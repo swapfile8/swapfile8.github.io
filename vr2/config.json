@@ -4,6 +4,7 @@
     "duboku": {
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
+      "proxy_parser": false,
       "videos": {
         "1": {
           "name": "珠帘玉幕",
