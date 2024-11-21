@@ -127,12 +127,6 @@
           }
         }
       }
-    },
-    "xiaoxintv": {
-      "site_base_url": "https://xiaoxintv.cc",
-      "video_base_url": "https://vr2-route.netlify.app/parse/player",
-      "proxy_parser": true,
-      "videos": {}
     }
   }
 }
