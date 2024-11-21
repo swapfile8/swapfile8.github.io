@@ -4,7 +4,6 @@
     "duboku": {
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
-      "proxy_parser": false,
       "videos": {
         "1": {
           "name": "永夜星河",
@@ -114,7 +113,6 @@
     "imaple": {
       "site_base_url": "https://imaple.app",
       "video_base_url": "",
-      "proxy_parser": false,
       "videos": {
         "1": {
           "name": "江南重案组",
