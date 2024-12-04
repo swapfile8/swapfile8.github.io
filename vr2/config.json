@@ -4,6 +4,7 @@
     "bdys": {
       "site_base_url": "https://www.xlys01.com/",
       "video_base_url": "https://vr-route.netlify.app/vr",
+      "video_url_format": 2,
       "videos": {
         "1": {
           "name": "三体 第一季",
@@ -43,6 +44,7 @@
     "duboku": {
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
+      "video_url_format": 3,
       "videos": {
         "2": {
           "name": "失笑",
@@ -210,6 +212,7 @@
     "imaple": {
       "site_base_url": "https://imaple.app",
       "video_base_url": "",
+      "video_url_format": 1,
       "videos": {}
     }
   }
