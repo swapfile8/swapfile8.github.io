@@ -86,5 +86,13 @@
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/auth_11.jpg"
-  } 
+  },
+  "auth_wallpaper_12": {
+    "w": 800,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_12.jpg"
+  }
 }
