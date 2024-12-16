@@ -180,21 +180,6 @@
             "20": "ep20.m3u8"
           }
         },
-        "8": {
-          "name": "一箱情缘",
-          "image": "https://pub.duboku.net/upload/vod/20241129-1/c254e106a995c6a75590793cda975c9e.jpg",
-          "url": "/voddetail/5052.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8",
-            "7": "ep7.m3u8",
-            "8": "ep8.m3u8"
-          }
-        },
         "9": {
           "name": "婚内婚外",
           "image": "https://pub.duboku.net/upload/vod/20241128-1/2c34b2b4faf1015730dc183f6c7c7aa2.jpg",
