@@ -94,5 +94,37 @@
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/auth_12.jpg"
-  }
+  },
+  "auth_wallpaper_13": {
+    "w": 800,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_13.jpg"
+  },
+  "auth_wallpaper_14": {
+    "w": 1280,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_14.jpg"
+  },
+  "auth_wallpaper_15": {
+    "w": 800,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_15.jpg"
+  },
+  "auth_wallpaper_16": {
+    "w": 800,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/auth_16.jpg"
+  }  
 }
