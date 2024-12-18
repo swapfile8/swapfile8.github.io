@@ -44,6 +44,9 @@
 .wallpaper > img {
     height: 100%;
 }
+.d-none {
+    display: none;
+}
 :root {
     --border: 1px solid #ced4da;
     --box-shadow: 0px 0px 10px #aaa;
@@ -75,7 +78,6 @@ $(async function() {
     /* Local wallpapers. */
     response = await fetch("local.json", {cache: "no-store"});
     if (response.status != 200) {
-        $(".container-label").css("display", "none");
         return;
     }
     const c = await response.json();
@@ -101,13 +103,13 @@ $(async function() {
     /* Copy new  configuration. */
     $(".container-label[data-action=\"config\"").on("click", function() {
         navigator.clipboard.writeText(JSON.stringify(config, null, 2));
-    });
+    }).removeClass("d-none");
 });
 </script>
 </head>
 <body>
     <div class="container"></div>
-    <div class="container-label" data-action="config">New Wallpaper</div>
+    <div class="container-label d-none" data-action="config">New Wallpaper</div>
     <div class="container"></div>
 </body>
 </html>
