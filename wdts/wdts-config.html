@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WDTS-CONFIG</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    /*box-shadow: var(--box-shadow);*/
+}
+.container-label {
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #1bc;
+    cursor: pointer;
+}
+.wallpaper {
+    position: relative;
+    height: 380px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    aspect-ratio: 3 / 4;
+}
+.wallpaper::after {
+    content: attr(data-dimension);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 3px;
+    color: #fff;
+    background-color: #198754;
+    font-size: .75rem;
+}
+.wallpaper.warning::after {
+    color: #fff;
+    background-color: #dc3545;
+}
+.wallpaper > img {
+    height: 100%;
+}
+:root {
+    --border: 1px solid #ced4da;
+    --box-shadow: 0px 0px 10px #aaa;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Microsoft JhengHei, NSimSun, Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+</style>
+<script>
+/* [^{}.,;:[\](/*+-]$ */
+"use strict";
+$(async function() {
+    let response = await fetch("https://swapfile8.github.io/wdts/config.json");
+    const config = await response.json();
+    let el = Object.keys(config).map(function(x) {
+        const img = $("<img>", {src: config[x].url, "data-key": x, "data-cfg-dimension": `${config[x].w} x ${config[x].h}`});
+        img.on("load", function() {
+            $(`img[data-key="${x}"]`).attr({"data-org-dimension": `${img[0].naturalWidth} x ${img[0].naturalHeight}`});
+            img.parent().attr("data-dimension", img.attr("data-org-dimension"))
+                .toggleClass("warning", img.attr("data-cfg-dimension") != img.attr("data-org-dimension"));
+        });
+        return $("<div>", {class: "wallpaper"}).append(img);
+    });
+    $(".container").first().append(el);
+    /* Local wallpapers. */
+    response = await fetch("local.json");
+    if (response.status != 200) {
+        $(".container-label").css("display", "none");
+        return;
+    }
+    const c = await response.json();
+    el = c.map(function(x) {
+        const key = `auth_wallpaper_${x}`;
+        const fname = `auth_${x.toString()}.jpg`;
+        const img = $("<img>", {src: fname, "data-key": key});
+        img.on("load", function() {
+            $(`img[data-key="${key}"]`).attr({"data-org-dimension": `${img[0].naturalWidth} x ${img[0].naturalHeight}`});
+            img.parent().attr("data-dimension", img.attr("data-org-dimension"));
+        });
+        config[key] = {
+            w: img[0].naturalWidth,
+            h: img[0].naturalHeight,
+            justify: "center",
+            half: false,
+            reverse: false,
+            url: `https://swapfile8.github.io/wdts/${fname}`,
+        };
+        return $("<div>", {class: "wallpaper"}).append(img);
+    });
+    $(".container").last().append(el);
+    /* Copy new  configuration. */
+    $(".container-label[data-action=\"config\"").on("click", function() {
+        navigator.clipboard.writeText(JSON.stringify(config, null, 2));
+    });
+});
+</script>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="container-label" data-action="config">New Wallpaper</div>
+    <div class="container"></div>
+</body>
+</html>
