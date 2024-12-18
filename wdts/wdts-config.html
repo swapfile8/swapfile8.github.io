@@ -60,7 +60,7 @@ body {
 /* [^{}.,;:[\](/*+-]$ */
 "use strict";
 $(async function() {
-    let response = await fetch("https://swapfile8.github.io/wdts/config.json");
+    let response = await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"});
     const config = await response.json();
     let el = Object.keys(config).map(function(x) {
         const img = $("<img>", {src: config[x].url, "data-key": x, "data-cfg-dimension": `${config[x].w} x ${config[x].h}`});
@@ -73,7 +73,7 @@ $(async function() {
     });
     $(".container").first().append(el);
     /* Local wallpapers. */
-    response = await fetch("local.json");
+    response = await fetch("local.json", {cache: "no-store"});
     if (response.status != 200) {
         $(".container-label").css("display", "none");
         return;
