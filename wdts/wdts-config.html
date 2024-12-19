@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<style>
+<style>/*
 .container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     margin: 1rem;
     padding: 1rem 1.5rem;
-    /*box-shadow: var(--box-shadow);*/
+    /*box-shadow: var(--box-shadow);* /
 }
 .container-label {
     margin: 1rem;
@@ -20,13 +20,7 @@
     background-color: #1bc;
     cursor: pointer;
 }
-.wallpaper {
-    position: relative;
-    height: 380px;
-    box-shadow: var(--box-shadow);
-    text-align: center;
-    aspect-ratio: 3 / 4;
-}
+
 .wallpaper::after {
     content: attr(data-dimension);
     position: absolute;
@@ -40,9 +34,6 @@
 .wallpaper.warning::after {
     color: #fff;
     background-color: #dc3545;
-}
-.wallpaper > img {
-    height: 100%;
 }
 .d-none {
     display: none;
@@ -58,12 +49,76 @@ body {
     font-family: Microsoft JhengHei, NSimSun, Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
     font-size: 16px;
 }
+*/
+.wallpaper {
+    position: relative;
+    height: 380px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    aspect-ratio: 3 / 4;
+}
+.wallpaper > img {
+    height: 100%;
+}
+.wallpapers {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 8px;
+    row-gap: 8px;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .wallpaper {
+        height: 300px;
+    }
+    .wallpapers {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media only screen and (max-width: 488px) {
+    .wallpaper {
+        height: 280px;
+    }
+    .wallpapers {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+:root {
+    --border: 1px solid #ced4da;
+    --box-shadow: 0px 0px 10px #aaa;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Microsoft JhengHei, NSimSun, Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
 </style>
 <script>
 /* [^{}.,;:[\](/*+-]$ */
 "use strict";
 $(async function() {
-    let response = await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"});
+    const cur_wallpapers = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
+    let new_wallpapers;
+    try {
+        new_wallpapers = await (await fetch("_local.json", {cache: "no-store"})).json();
+    }
+    catch(ignored) {
+    }
+    $(".cur-wallpapers .wallpapers").append(Object.keys(cur_wallpapers).map(function(x) {
+        const e = cur_wallpapers[x];
+        const img = $("<img>", {src: e.url, "data-key": x, "data-cfg-dimension": `$e.w} x ${e.h}`});
+        return $("<div>", {class: "wallpaper"}).append(img);
+    }));
+    /*
     const config = await response.json();
     let el = Object.keys(config).map(function(x) {
         const img = $("<img>", {src: config[x].url, "data-key": x, "data-cfg-dimension": `${config[x].w} x ${config[x].h}`});
@@ -75,7 +130,7 @@ $(async function() {
         return $("<div>", {class: "wallpaper"}).append(img);
     });
     $(".container").first().append(el);
-    /* Local wallpapers. */
+    /* Local wallpapers. * /
     response = await fetch("local.json", {cache: "no-store"});
     if (response.status != 200) {
         return;
@@ -100,16 +155,22 @@ $(async function() {
         return $("<div>", {class: "wallpaper"}).append(img);
     });
     $(".container").last().append(el);
-    /* Copy new  configuration. */
+    /* Copy new  configuration. * /
     $(".container-label[data-action=\"config\"").on("click", function() {
         navigator.clipboard.writeText(JSON.stringify(config, null, 2));
     }).removeClass("d-none");
+    */
 });
 </script>
 </head>
 <body>
-    <div class="container"></div>
-    <div class="container-label d-none" data-action="config">New Wallpaper</div>
-    <div class="container"></div>
+    <div class="container">
+        <div class="cur-wallpapers">
+            <div class="wallpapers"></div>
+        </div>
+        <div class="new-wallpapers">
+            <div class="wallpapers"></div>
+        </div>
+    </div>
 </body>
 </html>
