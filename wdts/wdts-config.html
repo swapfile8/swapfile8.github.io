@@ -6,6 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <style>
+body {
+    margin: 1rem 0;
+}
+.body-dimension {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2px 3px;
+    font-size: .75rem;
+}
+
+
 .one-image {
     position: relative;
     height: 380px;
@@ -74,7 +86,7 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 </style>
 <script>
@@ -88,17 +100,20 @@ $(async function() {
     }
     catch(ignored) {
     }
-    $(".cur-group .image-group").append(Object.keys(cur_images).map(function(x) {
-        const e = cur_images[x];
-        const img = $("<img>", {src: e.url, "data-key": x, "data-cfg-dimension": `${e.w} x ${e.h}`});
+    $(".cur-group > .image-group").append(Object.keys(cur_images).map(function(x) {
+        const im = cur_images[x];
+        const img = $("<img>", {src: im.url, "data-key": x, "data-cfg-dimension": `${im.w} x ${im.h}`});
         img.on("load", function() {
             const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
             $(`img[data-key="${x}"]`).attr("data-org-dimension", dim);
             img.parent().attr("data-dimension", dim).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
         });
-
         return $("<div>", {class: "one-image"}).append(img);
     }));
+    $(".body-dimension").text(`${$("body").width()} x ${$("body").height()}`);
+
+
+
     /*
     const config = await response.json();
     let el = Object.keys(config).map(function(x) {
@@ -153,5 +168,6 @@ $(async function() {
             <div class="image-group"></div>
         </div>
     </div>
+    <div class="body-dimension"></div>
 </body>
 </html>
