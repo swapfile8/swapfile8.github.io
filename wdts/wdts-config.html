@@ -16,8 +16,6 @@ body {
     padding: 2px 3px;
     font-size: .75rem;
 }
-
-
 .one-image {
     position: relative;
     height: 380px;
@@ -50,10 +48,10 @@ body {
     row-gap: 8px;
     justify-items: center;
 }
-
-
-
-@media only screen and (max-width: 768px) {
+.cur-group {
+    margin-bottom: 5rem;
+}
+@media only screen and (max-width: 817px) {
     .one-image {
         height: 300px;
     }
@@ -62,7 +60,7 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(min(225px, 100%), 1fr));
     }
 }
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 534px) {
     .one-image {
         height: 180px;
     }
@@ -96,7 +94,7 @@ $(async function() {
     const cur_images = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
     let new_images;
     try {
-        new_images = await (await fetch("_local.json", {cache: "no-store"})).json();
+        new_images = await (await fetch("local.json", {cache: "no-store"})).json();
     }
     catch(ignored) {
     }
@@ -110,32 +108,28 @@ $(async function() {
         });
         return $("<div>", {class: "one-image"}).append(img);
     }));
+    if (new_images) {
+        $(".new-group > .image-group").append(new_images.map(function(x) {
+            const key = x.toString().padStart(2, "0");
+            const config_key = `auth_wallpaper_${key}`;
+            const fname = `auth_${key}.jpg`;
+            const img = $("<img>", {src: fname, "data-key": config_key});
+            img.on("load", function() {
+                const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
+                $(`img[data-key="${x}"]`).attr("data-org-dimension", dim);
+                img.parent().attr("data-dimension", dim);
+            });
+            return $("<div>", {class: "one-image"}).append(img);
+        }));
+    }
     $(".body-dimension").text(`${$("body").width()} x ${$("body").height()}`);
 
 
-
     /*
-    const config = await response.json();
-    let el = Object.keys(config).map(function(x) {
-        const img = $("<img>", {src: config[x].url, "data-key": x, "data-cfg-dimension": `${config[x].w} x ${config[x].h}`});
-        img.on("load", function() {
-            $(`img[data-key="${x}"]`).attr({"data-org-dimension": `${img[0].naturalWidth} x ${img[0].naturalHeight}`});
-            img.parent().attr("data-dimension", img.attr("data-org-dimension"))
-                .toggleClass("warning", img.attr("data-cfg-dimension") != img.attr("data-org-dimension"));
-        });
-        return $("<div>", {class: "one-image"}).append(img);
-    });
-    $(".container").first().append(el);
-    /* Local image-group. * /
-    response = await fetch("local.json", {cache: "no-store"});
-    if (response.status != 200) {
-        return;
-    }
-    const c = await response.json();
     el = c.map(function(x) {
-        const key = `auth_one-image_${x}`;
+
         const fname = `auth_${x.toString()}.jpg`;
-        const img = $("<img>", {src: fname, "data-key": key});
+
         img.on("load", function() {
             $(`img[data-key="${key}"]`).attr({"data-org-dimension": `${img[0].naturalWidth} x ${img[0].naturalHeight}`});
             img.parent().attr("data-dimension", img.attr("data-org-dimension"));
