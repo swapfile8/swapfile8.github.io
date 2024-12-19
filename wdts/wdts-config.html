@@ -5,23 +5,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<style>/*
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 1rem;
-    padding: 1rem 1.5rem;
-    /*box-shadow: var(--box-shadow);* /
+<style>
+.one-image {
+    position: relative;
+    height: 380px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    aspect-ratio: 3 / 4;
 }
-.container-label {
-    margin: 1rem;
-    padding: 1rem 1.5rem;
-    background-color: #1bc;
-    cursor: pointer;
-}
-
-.wallpaper::after {
+.one-image::after {
     content: attr(data-dimension);
     position: absolute;
     top: 0;
@@ -31,57 +23,40 @@
     background-color: #198754;
     font-size: .75rem;
 }
-.wallpaper.warning::after {
+.one-image.warning::after {
     color: #fff;
     background-color: #dc3545;
 }
-.d-none {
-    display: none;
-}
-:root {
-    --border: 1px solid #ced4da;
-    --box-shadow: 0px 0px 10px #aaa;
-}
-*, ::before, ::after {
-    box-sizing: border-box;
-}
-body {
-    font-family: Microsoft JhengHei, NSimSun, Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
-    font-size: 16px;
-}
-*/
-.wallpaper {
-    position: relative;
-    height: 380px;
-    box-shadow: var(--box-shadow);
-    text-align: center;
-    aspect-ratio: 3 / 4;
-}
-.wallpaper > img {
+.one-image > img {
     height: 100%;
 }
-.wallpapers {
+.image-group {
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    /*grid-template-columns: repeat(6, minmax(0, 1fr));*/
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
     gap: 8px;
     row-gap: 8px;
     justify-items: center;
 }
 
+
+
 @media only screen and (max-width: 768px) {
-    .wallpaper {
+    .one-image {
         height: 300px;
     }
-    .wallpapers {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .image-group {
+        /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+        grid-template-columns: repeat(auto-fill, minmax(min(225px, 100%), 1fr));
     }
 }
 @media only screen and (max-width: 412px) {
-    .wallpaper {
+    .one-image {
         height: 180px;
     }
-    .wallpapers {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .image-group {
+        /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+        grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
     }
 }
 :root {
@@ -106,17 +81,23 @@ body {
 /* [^{}.,;:[\](/*+-]$ */
 "use strict";
 $(async function() {
-    const cur_wallpapers = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
-    let new_wallpapers;
+    const cur_images = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
+    let new_images;
     try {
-        new_wallpapers = await (await fetch("_local.json", {cache: "no-store"})).json();
+        new_images = await (await fetch("_local.json", {cache: "no-store"})).json();
     }
     catch(ignored) {
     }
-    $(".cur-wallpapers .wallpapers").append(Object.keys(cur_wallpapers).map(function(x) {
-        const e = cur_wallpapers[x];
-        const img = $("<img>", {src: e.url, "data-key": x, "data-cfg-dimension": `$e.w} x ${e.h}`});
-        return $("<div>", {class: "wallpaper"}).append(img);
+    $(".cur-group .image-group").append(Object.keys(cur_images).map(function(x) {
+        const e = cur_images[x];
+        const img = $("<img>", {src: e.url, "data-key": x, "data-cfg-dimension": `${e.w} x ${e.h}`});
+        img.on("load", function() {
+            const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
+            $(`img[data-key="${x}"]`).attr("data-org-dimension", dim);
+            img.parent().attr("data-dimension", dim).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
+        });
+
+        return $("<div>", {class: "one-image"}).append(img);
     }));
     /*
     const config = await response.json();
@@ -127,17 +108,17 @@ $(async function() {
             img.parent().attr("data-dimension", img.attr("data-org-dimension"))
                 .toggleClass("warning", img.attr("data-cfg-dimension") != img.attr("data-org-dimension"));
         });
-        return $("<div>", {class: "wallpaper"}).append(img);
+        return $("<div>", {class: "one-image"}).append(img);
     });
     $(".container").first().append(el);
-    /* Local wallpapers. * /
+    /* Local image-group. * /
     response = await fetch("local.json", {cache: "no-store"});
     if (response.status != 200) {
         return;
     }
     const c = await response.json();
     el = c.map(function(x) {
-        const key = `auth_wallpaper_${x}`;
+        const key = `auth_one-image_${x}`;
         const fname = `auth_${x.toString()}.jpg`;
         const img = $("<img>", {src: fname, "data-key": key});
         img.on("load", function() {
@@ -152,7 +133,7 @@ $(async function() {
             reverse: false,
             url: `https://swapfile8.github.io/wdts/${fname}`,
         };
-        return $("<div>", {class: "wallpaper"}).append(img);
+        return $("<div>", {class: "one-image"}).append(img);
     });
     $(".container").last().append(el);
     /* Copy new  configuration. * /
@@ -165,11 +146,11 @@ $(async function() {
 </head>
 <body>
     <div class="container">
-        <div class="cur-wallpapers">
-            <div class="wallpapers"></div>
+        <div class="cur-group">
+            <div class="image-group"></div>
         </div>
-        <div class="new-wallpapers">
-            <div class="wallpapers"></div>
+        <div class="new-group">
+            <div class="image-group"></div>
         </div>
     </div>
 </body>
