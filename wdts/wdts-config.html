@@ -88,8 +88,8 @@ body {
     /*transition: opacity .6s linear;*/
 }
 .backdrop > img {
-    max-height: 95vh;
-    max-width: 95vw;
+    max-height: 90vh;
+    max-width: 90vw;
 }
 .d-none {
     display: none;
@@ -155,7 +155,7 @@ $(async function() {
             img.on("load", function() {
                 const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
                 img.attr("data-org-dimension", dim);
-                img.parent().attr({"data-key": x, "data-dimension": dim}).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
+                img.parent().attr({"data-key": x.split("_").pop(), "data-dimension": dim}).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
             });
             return $("<div>", {class: "one-image"}).append(img);
         }));
@@ -170,7 +170,7 @@ $(async function() {
             img.on("load", function() {
                 const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
                 img.attr("data-org-dimension", dim);
-                img.parent().attr({"data-key": config_key, "data-dimension": dim}).toggleClass("alert", cur_images[config_key] != null);
+                img.parent().attr({"data-key": key, "data-dimension": dim}).toggleClass("alert", cur_images[config_key] != null);
                 cur_images[config_key] = {
                     w: img[0].naturalWidth,
                     h: img[0].naturalHeight,
