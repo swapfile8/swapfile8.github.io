@@ -48,12 +48,52 @@ body {
     row-gap: 8px;
     justify-items: center;
 }
-.cur-group {
-    margin-bottom: 5rem;
+.new-group {
+    margin-top: 5rem;
+}
+.new-group > :not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.btn {
+    width: 9rem;
+    padding: .5rem 1.5rem;
+    background-color: #329d4a;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover {
+    filter: brightness(.85);
+}
+.btn:active {
+    filter: brightness(.7);
+}
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*opacity: 0;*/
+    z-index: 8192;
+    /*transition: opacity .6s linear;*/
+}
+.backdrop > img {
+    height: 95vh;
+    border: 8px solid #fff;
+}
+.d-none {
+    display: none;
 }
 @media only screen and (max-width: 817px) {
     .one-image {
-        height: 300px;
+        /*height: 300px;*/
+        height: 285px;
     }
     .image-group {
         /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
@@ -62,7 +102,8 @@ body {
 }
 @media only screen and (max-width: 534px) {
     .one-image {
-        height: 180px;
+        /*height: 180px;*/
+        height: 190px;
     }
     .image-group {
         /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
@@ -98,16 +139,18 @@ $(async function() {
     }
     catch(ignored) {
     }
-    $(".cur-group > .image-group").append(Object.keys(cur_images).map(function(x) {
-        const im = cur_images[x];
-        const img = $("<img>", {src: im.url, "data-key": x, "data-cfg-dimension": `${im.w} x ${im.h}`});
-        img.on("load", function() {
-            const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
-            $(`img[data-key="${x}"]`).attr("data-org-dimension", dim);
-            img.parent().attr("data-dimension", dim).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
-        });
-        return $("<div>", {class: "one-image"}).append(img);
-    }));
+    if (cur_images) {
+        $(".cur-group > .image-group").append(Object.keys(cur_images).map(function(x) {
+            const im = cur_images[x];
+            const img = $("<img>", {src: im.url, "data-key": x, "data-cfg-dimension": `${im.w} x ${im.h}`});
+            img.on("load", function() {
+                const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
+                img.attr("data-org-dimension", dim);
+                img.parent().attr("data-dimension", dim).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
+            });
+            return $("<div>", {class: "one-image"}).append(img);
+        }));
+    }
     if (new_images) {
         $(".new-group > .image-group").append(new_images.map(function(x) {
             const key = x.toString().padStart(2, "0");
@@ -116,40 +159,29 @@ $(async function() {
             const img = $("<img>", {src: fname, "data-key": config_key});
             img.on("load", function() {
                 const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
-                $(`img[data-key="${x}"]`).attr("data-org-dimension", dim);
+                img.attr("data-org-dimension", dim);
                 img.parent().attr("data-dimension", dim);
+                cur_images[config_key] = {
+                    w: img[0].naturalWidth,
+                    h: img[0].naturalHeight,
+                    justify: "center",
+                    half: false,
+                    reverse: false,
+                    url: `https://swapfile8.github.io/wdts/${fname}`,
+                };
             });
             return $("<div>", {class: "one-image"}).append(img);
         }));
+        $(".new-group").removeClass("d-none");
+        $(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
     }
-    $(".body-dimension").text(`${$("body").width()} x ${$("body").height()}`);
-
-
-    /*
-    el = c.map(function(x) {
-
-        const fname = `auth_${x.toString()}.jpg`;
-
-        img.on("load", function() {
-            $(`img[data-key="${key}"]`).attr({"data-org-dimension": `${img[0].naturalWidth} x ${img[0].naturalHeight}`});
-            img.parent().attr("data-dimension", img.attr("data-org-dimension"));
-        });
-        config[key] = {
-            w: img[0].naturalWidth,
-            h: img[0].naturalHeight,
-            justify: "center",
-            half: false,
-            reverse: false,
-            url: `https://swapfile8.github.io/wdts/${fname}`,
-        };
-        return $("<div>", {class: "one-image"}).append(img);
+    const bd = $(".backdrop").on("click", () => bd.addClass("d-none"));
+    $(".one-image").on("click", function() {
+        $("img", bd).attr("src", $("img", $(this)).attr("src"));
+        bd.removeClass("d-none");
     });
-    $(".container").last().append(el);
-    /* Copy new  configuration. * /
-    $(".container-label[data-action=\"config\"").on("click", function() {
-        navigator.clipboard.writeText(JSON.stringify(config, null, 2));
-    }).removeClass("d-none");
-    */
+    //$(".body-dimension").text(`${$("body").width()} x ${$("body").height()}`);
+    $(".body-dimension").text(`${bd.width()} x ${bd.height()}`);
 });
 </script>
 </head>
@@ -158,10 +190,12 @@ $(async function() {
         <div class="cur-group">
             <div class="image-group"></div>
         </div>
-        <div class="new-group">
+        <div class="new-group d-none">
+            <div class="btn">新登錄圖像</div>
             <div class="image-group"></div>
         </div>
     </div>
     <div class="body-dimension"></div>
+    <div class="backdrop d-none"><img></img></div>
 </body>
 </html>
