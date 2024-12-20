@@ -24,7 +24,7 @@ body {
     aspect-ratio: 3 / 4;
 }
 .one-image::after {
-    content: attr(data-dimension);
+    content: attr(data-key) " | " attr(data-dimension);
     position: absolute;
     top: 0;
     right: 0;
@@ -36,6 +36,10 @@ body {
 .one-image.warning::after {
     color: #fff;
     background-color: #dc3545;
+}
+.one-image.alert::after {
+    color: #fff;
+    background-color: #000;
 }
 .one-image > img {
     height: 100%;
@@ -84,8 +88,8 @@ body {
     /*transition: opacity .6s linear;*/
 }
 .backdrop > img {
-    height: 95vh;
-    border: 8px solid #fff;
+    max-height: 95vh;
+    max-width: 95vw;
 }
 .d-none {
     display: none;
@@ -132,6 +136,11 @@ body {
 /* [^{}.,;:[\](/*+-]$ */
 "use strict";
 $(async function() {
+    const bd = $(".backdrop").on("click", () => bd.addClass("d-none"));
+    const screen_width = bd.width();
+    const screen_height = bd.height();
+    $(".body-dimension").text(`${screen_width} x ${screen_height}`);
+    // Mobile: 535 x 736, Pad: 360 x 659.
     const cur_images = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
     let new_images;
     try {
@@ -146,7 +155,7 @@ $(async function() {
             img.on("load", function() {
                 const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
                 img.attr("data-org-dimension", dim);
-                img.parent().attr("data-dimension", dim).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
+                img.parent().attr({"data-key": x, "data-dimension": dim}).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
             });
             return $("<div>", {class: "one-image"}).append(img);
         }));
@@ -156,11 +165,12 @@ $(async function() {
             const key = x.toString().padStart(2, "0");
             const config_key = `auth_wallpaper_${key}`;
             const fname = `auth_${key}.jpg`;
+            cur_images[config_key] = null;
             const img = $("<img>", {src: fname, "data-key": config_key});
             img.on("load", function() {
                 const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
                 img.attr("data-org-dimension", dim);
-                img.parent().attr("data-dimension", dim);
+                img.parent().attr({"data-key": config_key, "data-dimension": dim}).toggleClass("alert", cur_images[config_key] != null);
                 cur_images[config_key] = {
                     w: img[0].naturalWidth,
                     h: img[0].naturalHeight,
@@ -175,13 +185,10 @@ $(async function() {
         $(".new-group").removeClass("d-none");
         $(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
     }
-    const bd = $(".backdrop").on("click", () => bd.addClass("d-none"));
     $(".one-image").on("click", function() {
         $("img", bd).attr("src", $("img", $(this)).attr("src"));
         bd.removeClass("d-none");
     });
-    //$(".body-dimension").text(`${$("body").width()} x ${$("body").height()}`);
-    $(".body-dimension").text(`${bd.width()} x ${bd.height()}`);
 });
 </script>
 </head>
