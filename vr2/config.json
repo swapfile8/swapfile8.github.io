@@ -176,6 +176,24 @@
             "19": "ep19.m3u8",
             "20": "ep20.m3u8"
           }
+        },
+        "11": {
+          "name": "清明上河图密码",
+          "image": "https://pub.duboku.net/upload/vod/20241219-1/d84eb6997c8db52841ea8a68261c9006.jpg",
+          "url": "/voddetail/5073.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8",
+            "3": "ep3.m3u8",
+            "4": "ep4.m3u8",
+            "5": "ep5.m3u8",
+            "6": "ep6.m3u8",
+            "7": "ep7.m3u8",
+            "8": "ep8.m3u8",
+            "9": "ep9.m3u8",
+            "10": "ep10.m3u8",
+            "11": "ep11.m3u8"
+          }
         }
       }
     },
