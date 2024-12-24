@@ -1,6 +1,12 @@
 {
   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
-  "bdys_m3u8_priority": ["ac5634-us", "pdd", "iplay", "pxx", "tos_hls3"],
+  "bdys_m3u8_priority": [
+    "ac5634-us",
+    "pdd",
+    "iplay",
+    "pxx",
+    "tos_hls3"
+  ],
   "sites": {
     "bdys": {
       "site_base_url": "https://www.xlys01.com",
@@ -202,7 +208,9 @@
             "12": "ep12.m3u8",
             "13": "ep13.m3u8",
             "14": "ep14.m3u8",
-            "15": "ep15.m3u8"
+            "15": "ep15.m3u8",
+            "16": "ep16.m3u8",
+            "17": "ep17.m3u8"
           }
         },
         "12": {
