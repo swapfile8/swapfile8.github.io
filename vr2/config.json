@@ -227,17 +227,7 @@
       "site_base_url": "https://imaple.app",
       "video_base_url": "",
       "video_url_format": 1,
-      "videos": {
-        "1": {
-          "name": "家族计划",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20241129-1/1b41946fbf1235e3d80e464e72dd9ccc.jpg",
-          "url": "/vod/320964.html",
-          "episodes": {
-            "1": "https://cdn.wlcdn99.com:777/24b5ac43/index.m3u8",
-            "2": "https://cdn.wlcdn99.com:777/73f4c9dc/index.m3u8"
-          }
-        }
-      }
+      "videos": {}
     }
   }
 }
