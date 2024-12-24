@@ -1,5 +1,6 @@
 {
   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0",
+  "bdys_m3u8_priority": ["ac5634-us", "pdd", "iplay", "pxx", "tos_hls3"],
   "sites": {
     "bdys": {
       "site_base_url": "https://www.xlys01.com",
