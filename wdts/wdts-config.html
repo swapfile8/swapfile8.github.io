@@ -162,9 +162,9 @@ $(async function() {
     }
     if (new_images) {
         $(".new-group > .image-group").append(new_images.map(function(x) {
-            const key = x.toString().padStart(2, "0");
-            const config_key = `auth_wallpaper_${key}`;
-            const fname = `auth_${key}.jpg`;
+            const key = x.toString().padStart(3, "0");
+            const config_key = `wallpaper_${key}`;
+            const fname = `${key}.jpg`;
             cur_images[config_key] = null;
             const img = $("<img>", {src: fname, "data-key": config_key});
             img.on("load", function() {
