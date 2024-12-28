@@ -998,5 +998,37 @@
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/125.jpg"
+  },
+  "wallpaper_126": {
+    "w": 1280,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/126.jpg"
+  },
+  "wallpaper_127": {
+    "w": 1280,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/127.jpg"
+  },
+  "wallpaper_128": {
+    "w": 800,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/128.jpg"
+  },
+  "wallpaper_129": {
+    "w": 1280,
+    "h": 1920,
+    "justify": "center",
+    "half": false,
+    "reverse": false,
+    "url": "https://swapfile8.github.io/wdts/129.jpg"
   }
 }
