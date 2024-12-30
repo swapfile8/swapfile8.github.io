@@ -10,8 +10,8 @@
   "sites": {
     "bdys": {
       "site_base_url": "https://www.xlys01.com",
-      "video_base_url": "https://vr-route.netlify.app/vr",
-      "video_url_format": 2,
+      "video_base_url": "https://swapfile8.github.io/vr2/bdys",
+      "video_url_format": 3,
       "videos": {
         "1": {
           "name": "大奉打更人",
