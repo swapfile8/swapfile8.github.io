@@ -13,18 +13,6 @@
       "video_base_url": "https://swapfile8.github.io/vr2/bdys",
       "video_url_format": 3,
       "videos": {
-        "1": {
-          "name": "大奉打更人",
-          "image": "https://wework.qpic.cn/wwpic3az/494175_9JxWcHa8T7GZJvs_1735392192/0",
-          "url": "/guoju/25536.htm",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8"
-          }
-        },
         "2": {
           "name": "好搭档",
           "image": "https://wework.qpic.cn/wwpic3az/900995_Bn3uYJBkRzSDQdw_1721226632/0",
