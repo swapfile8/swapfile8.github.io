@@ -186,8 +186,14 @@ $(async function() {
         $(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
     }
     $(".one-image").on("click", function() {
-        $("img", bd).attr("src", $("img", $(this)).attr("src"));
+        $("img", bd).attr({"src": $("img", $(this)).attr("src"), "data-key": $(this).attr("data-key")});
         bd.removeClass("d-none");
+    });
+    $(".bd-image").on("click", function(e) {
+        const rect = this.getBoundingClientRect();
+        const key = (parseInt($(this).attr("data-key")) + (((e.clientX - rect.x) < rect.width / 2) ? -1 : 1)).toString().padStart(3, "0");
+        $(`.one-image[data-key=${key}]`).click();
+        e.stopPropagation();
     });
 });
 </script>
@@ -203,6 +209,6 @@ $(async function() {
         </div>
     </div>
     <div class="body-dimension"></div>
-    <div class="backdrop d-none"><img></img></div>
+    <div class="backdrop d-none"><img class="bd-image"></img></div>
 </body>
 </html>
