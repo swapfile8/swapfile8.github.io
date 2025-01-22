@@ -1,36 +1,4 @@
 {
-  "wallpaper_001": {
-    "w": 736,
-    "h": 1472,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/001.jpg"
-  },
-  "wallpaper_002": {
-    "w": 750,
-    "h": 1500,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/002.jpg"
-  },
-  "wallpaper_003": {
-    "w": 555,
-    "h": 1200,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/003.jpg"
-  },
-  "wallpaper_004": {
-    "w": 493,
-    "h": 877,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/004.jpg"
-  },
   "wallpaper_005": {
     "w": 1280,
     "h": 1920,
@@ -46,38 +14,6 @@
     "half": false,
     "reverse": false,
     "url": "https://swapfile8.github.io/wdts/006.jpg"
-  },
-  "wallpaper_007": {
-    "w": 1000,
-    "h": 2000,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/007.jpg"
-  },
-  "wallpaper_008": {
-    "w": 1024,
-    "h": 1800,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/008.jpg"
-  },
-  "wallpaper_009": {
-    "w": 560,
-    "h": 1280,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/009.jpg"
-  },
-  "wallpaper_010": {
-    "w": 375,
-    "h": 750,
-    "justify": "center",
-    "half": false,
-    "reverse": false,
-    "url": "https://swapfile8.github.io/wdts/010.jpg"
   },
   "wallpaper_011": {
     "w": 800,
