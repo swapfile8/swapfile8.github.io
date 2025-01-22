@@ -179,13 +179,21 @@ $(async function() {
                     half: false,
                     reverse: false,
                     //url: `https://swapfile8.github.io/wdts/${im}`,
-                    url: new URL(im, "https://swapfile8.github.io/wdts").href,
+                    url: new URL(im, "https://swapfile8.github.io/wdts/").href,
                 };
             });
             return $("<div>", {class: "one-image"}).append(img);
         }));
         $(".new-group").removeClass("d-none");
-        $(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
+        $(".new-group > .btn").on("click", function() {
+            const sorted_keys = Object.keys(cur_images).sort();
+            const sorted = sorted_keys.reduce(function(a, b) {
+                a[b] = cur_images[b];
+                return a;
+            }, {});
+            navigator.clipboard.writeText(JSON.stringify(sorted, null, 2));
+        });
+        //$(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
     }
     $(".one-image").on("click", function() {
         $("img", bd).attr({"src": $("img", $(this)).attr("src"), "data-key": $(this).attr("data-key")});
