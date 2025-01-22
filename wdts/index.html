@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WDTS-CONFIG</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+body {
+    margin: 1rem 0;
+}
+.body-dimension {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2px 3px;
+    font-size: .75rem;
+}
+.one-image {
+    position: relative;
+    height: 380px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    aspect-ratio: 3 / 4;
+}
+.one-image::after {
+    content: attr(data-key) " | " attr(data-dimension);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 3px;
+    color: #fff;
+    background-color: #198754;
+    font-size: .75rem;
+}
+.one-image.warning::after {
+    color: #fff;
+    background-color: #dc3545;
+}
+.one-image.alert::after {
+    color: #fff;
+    background-color: #000;
+}
+.one-image > img {
+    height: 100%;
+}
+.image-group {
+    display: grid;
+    /*grid-template-columns: repeat(6, minmax(0, 1fr));*/
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    gap: 8px;
+    row-gap: 8px;
+    justify-items: center;
+}
+.new-group {
+    margin-top: 5rem;
+}
+.new-group > :not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.btn {
+    width: 9rem;
+    padding: .5rem 1.5rem;
+    background-color: #329d4a;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover {
+    filter: brightness(.85);
+}
+.btn:active {
+    filter: brightness(.7);
+}
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*opacity: 0;*/
+    z-index: 8192;
+    /*transition: opacity .6s linear;*/
+}
+.backdrop > img {
+    max-height: 90vh;
+    max-width: 90vw;
+}
+.d-none {
+    display: none;
+}
+@media only screen and (max-width: 817px) {
+    .one-image {
+        /*height: 300px;*/
+        height: 285px;
+    }
+    .image-group {
+        /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+        grid-template-columns: repeat(auto-fill, minmax(min(225px, 100%), 1fr));
+    }
+}
+@media only screen and (max-width: 534px) {
+    .one-image {
+        /*height: 180px;*/
+        height: 190px;
+    }
+    .one-image::after {
+        display: none;
+    }
+    .image-group {
+        /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+        grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
+    }
+}
+:root {
+    --border: 1px solid #ced4da;
+    --box-shadow: 0px 0px 10px #aaa;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Microsoft JhengHei, NSimSun, Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem 2rem 1rem;
+}
+</style>
+<script>
+/* [^{}.,;:[\](/*+-]$ */
+"use strict";
+$(async function() {
+    const bd = $(".backdrop").on("click", () => bd.addClass("d-none"));
+    const screen_width = bd.width();
+    const screen_height = bd.height();
+    $(".body-dimension").text(`${screen_width} x ${screen_height}`);
+    // Mobile: 535 x 736, Pad: 360 x 659.
+    const cur_images = await (await fetch("https://swapfile8.github.io/wdts/config.json", {cache: "no-store"})).json();
+    let new_images;
+    try {
+        new_images = await (await fetch("wdts-config.json", {cache: "no-store"})).json();
+    }
+    catch(ignored) {
+    }
+    if (cur_images) {
+        $(".cur-group > .image-group").append(Object.keys(cur_images).map(function(x) {
+            const im = cur_images[x];
+            const img = $("<img>", {src: im.url, "data-key": x, "data-cfg-dimension": `${im.w} x ${im.h}`});
+            img.on("load", function() {
+                const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
+                img.attr("data-org-dimension", dim);
+                img.parent().attr({"data-key": x, "data-dimension": dim}).toggleClass("warning", img.attr("data-cfg-dimension") != dim);
+            });
+            return $("<div>", {class: "one-image"}).append(img);
+        }));
+    }
+    if (new_images) {
+        $(".new-group > .image-group").append(Object.keys(new_images).map(function(x) {
+            const exists = x in cur_images;
+            const im = new_images[x];
+            const img = $("<img>", {src: im, "data-key": x});
+            img.on("load", function() {
+                const dim = `${img[0].naturalWidth} x ${img[0].naturalHeight}`;
+                img.attr("data-org-dimension", dim);
+                img.parent().attr({"data-key": x, "data-dimension": dim}).toggleClass("alert", exists);
+                cur_images[x] = {
+                    w: img[0].naturalWidth,
+                    h: img[0].naturalHeight,
+                    justify: "center",
+                    half: false,
+                    reverse: false,
+                    //url: `https://swapfile8.github.io/wdts/${im}`,
+                    url: new URL(im, "https://swapfile8.github.io/wdts").href,
+                };
+            });
+            return $("<div>", {class: "one-image"}).append(img);
+        }));
+        $(".new-group").removeClass("d-none");
+        $(".new-group > .btn").on("click", () => navigator.clipboard.writeText(JSON.stringify(cur_images, null, 2)));
+    }
+    $(".one-image").on("click", function() {
+        $("img", bd).attr({"src": $("img", $(this)).attr("src"), "data-key": $(this).attr("data-key")});
+        bd.removeClass("d-none");
+    });
+    $(".bd-image").on("click", function(e) {
+        const rect = this.getBoundingClientRect();
+        const key = $(this).attr("data-key");
+        const el = $(`.one-image[data-key='${key}']`);
+        (((e.clientX - rect.x) < rect.width / 2) ? el.prev() : el.next()).click();
+        e.stopPropagation();
+    });
+});
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="cur-group">
+            <div class="image-group"></div>
+        </div>
+        <div class="new-group d-none">
+            <div class="btn">新登錄圖像</div>
+            <div class="image-group"></div>
+        </div>
+    </div>
+    <div class="body-dimension"></div>
+    <div class="backdrop d-none"><img class="bd-image"></img></div>
+</body>
+</html>
