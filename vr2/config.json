@@ -176,42 +176,6 @@
             "1": "ep1.m3u8"
           }
         },
-        "18": {
-          "name": "锦囊妙录",
-          "image": "https://pub.duboku.net/upload/vod/20250115-1/dd9ba7acba72ec85755babb0e3a20fdf.jpg",
-          "url": "/voddetail/5156.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8",
-            "7": "ep7.m3u8",
-            "8": "ep8.m3u8",
-            "9": "ep9.m3u8",
-            "10": "ep10.m3u8",
-            "11": "ep11.m3u8",
-            "12": "ep12.m3u8",
-            "13": "ep13.m3u8",
-            "14": "ep14.m3u8",
-            "15": "ep15.m3u8",
-            "16": "ep16.m3u8",
-            "17": "ep17.m3u8",
-            "18": "ep18.m3u8",
-            "19": "ep19.m3u8",
-            "20": "ep20.m3u8",
-            "21": "ep21.m3u8",
-            "22": "ep22.m3u8",
-            "23": "ep23.m3u8",
-            "24": "ep24.m3u8",
-            "25": "ep25.m3u8",
-            "26": "ep26.m3u8",
-            "27": "ep27.m3u8",
-            "28": "ep28.m3u8",
-            "29": "ep29.m3u8"
-          }
-        },
         "19": {
           "name": "我的完美秘书",
           "image": "https://pub.duboku.net/upload/vod/20250103-1/e5dd962bed3aac302c82021aa227c19f.jpg",
