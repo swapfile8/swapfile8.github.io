@@ -29,6 +29,38 @@
         }
       }
     },
+    "bdys+pid": {
+      "site_base_url": "https://www.xlys01.com",
+      "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
+      "video_url_format": 2,
+      "videos": {
+        "1": {
+          "name": "灿烂的风和海",
+          "image": "https://wework.qpic.cn/wwpic3az/403083_os2DhVypQ2612HT_1734600006/0",
+          "url": "/guoju/25504.htm",
+          "episodes": {
+            "1": 186199,
+            "2": 186200,
+            "3": 186201,
+            "4": 186232,
+            "5": 186235,
+            "6": 186236,
+            "7": 186332,
+            "8": 186333,
+            "9": 186359,
+            "10": 186360,
+            "11": 186426,
+            "12": 186427,
+            "13": 186428,
+            "14": 186429,
+            "15": 186626,
+            "16": 186627,
+            "17": 186669,
+            "18": 186670
+          }
+        }
+      }
+    },    
     "duboku": {
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
