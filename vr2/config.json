@@ -60,7 +60,7 @@
           }
         }
       }
-    },    
+    },
     "duboku": {
       "site_base_url": "https://u.duboku.io",
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
@@ -133,7 +133,8 @@
             "8": "ep8.m3u8",
             "9": "ep9.m3u8",
             "10": "ep10.m3u8",
-            "11": "ep11.m3u8"
+            "11": "ep11.m3u8",
+            "12": "ep12.m3u8"
           }
         },
         "20": {
