@@ -13,21 +13,7 @@
       "site_base_url": "https://www.xlys01.com",
       "video_base_url": "https://swapfile8.github.io/vr2/bdys",
       "video_url_format": 3,
-      "videos": {
-        "1": {
-          "name": "我的完美秘书",
-          "image": "https://wework.qpic.cn/wwpic3az/964532_KKSuPaOcSayYU3U_1736478484/0",
-          "url": "/hanju/25634.htm",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8"
-          }
-        }
-      }
+      "videos": {}
     },
     "bdys+pid": {
       "site_base_url": "https://www.xlys01.com",
