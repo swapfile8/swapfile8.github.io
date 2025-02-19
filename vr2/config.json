@@ -351,6 +351,17 @@
             "5": "ep5.m3u8",
             "6": "ep6.m3u8"
           }
+        },
+        "25": {
+          "name": "难哄",
+          "image": "https://pub.duboku.net/upload/vod/20250213-1/5867d4f514db5c8525eb873d475f4564.jpg",
+          "url": "/voddetail/5250.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8",
+            "3": "ep3.m3u8",
+            "4": "ep4.m3u8"
+          }
         }
       }
     },
