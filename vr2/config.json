@@ -338,6 +338,19 @@
             "37": "ep37.m3u8",
             "38": "ep38.m3u8"
           }
+        },
+        "24": {
+          "name": "180天重启计划",
+          "image": "https://pub.duboku.net/upload/vod/20250213-1/55dd195f339ebc90267e9a63d3fc64d4.jpg",
+          "url": "/voddetail/5249.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8",
+            "3": "ep3.m3u8",
+            "4": "ep4.m3u8",
+            "5": "ep5.m3u8",
+            "6": "ep6.m3u8"
+          }
         }
       }
     },
