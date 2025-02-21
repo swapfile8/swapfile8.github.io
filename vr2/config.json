@@ -10,13 +10,13 @@
   ],
   "sites": {
     "bdys": {
-      "site_base_url": "https://www.xlys01.com",
+      "site_base_url": "https://v.xlys.ltd.ua",
       "video_base_url": "https://swapfile8.github.io/vr2/bdys",
       "video_url_format": 3,
       "videos": {}
     },
     "bdys+pid": {
-      "site_base_url": "https://www.xlys01.com",
+      "site_base_url": "https://v.xlys.ltd.ua",
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
       "videos": {
