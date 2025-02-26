@@ -420,6 +420,17 @@
             "3": "ep3.m3u8",
             "4": "ep4.m3u8"
           }
+        },
+        "28": {
+          "name": "爱你",
+          "image": "https://pub.duboku.net/upload/vod/20250224-1/aa4d7cf4d2506eee405335285141ae60.jpg",
+          "url": "/voddetail/5268.html",
+          "episodes": {
+            "1": "ep1.m3u8",
+            "2": "ep2.m3u8",
+            "3": "ep3.m3u8",
+            "4": "ep4.m3u8"
+          }
         }
       }
     },
