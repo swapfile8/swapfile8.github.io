@@ -20,25 +20,6 @@
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
       "videos": {
-        "4": {
-          "name": "我的完美秘书",
-          "image": "https://wework.qpic.cn/wwpic3az/964532_KKSuPaOcSayYU3U_1736478484/0",
-          "url": "/hanju/25634.htm",
-          "episodes": {
-            "1": 187570,
-            "2": 187571,
-            "3": 187854,
-            "4": 187855,
-            "5": 188466,
-            "6": 188467,
-            "7": 188844,
-            "8": 188845,
-            "9": 188846,
-            "10": 188999,
-            "11": 189000,
-            "12": 189393
-          }
-        },
         "6": {
           "name": "180天重启计划",
           "image": "https://wework.qpic.cn/wwpic3az/277840_vytdtvZ6THOSxIu_1739799440/0",
