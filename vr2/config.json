@@ -368,23 +368,6 @@
             "7": "ep7.m3u8",
             "8": "ep8.m3u8"
           }
-        },
-        "32": {
-          "name": "棋士",
-          "image": "https://pub.duboku.net/upload/vod/20250320-1/5a0c3455d9b84a13db8cfbd25a76099f.jpg",
-          "url": "/voddetail/5321.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8",
-            "7": "ep7.m3u8",
-            "8": "ep8.m3u8",
-            "9": "ep9.m3u8",
-            "10": "ep10.m3u8"
-          }
         }
       }
     },
