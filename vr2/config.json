@@ -16,7 +16,7 @@
       "videos": {}
     },
     "bdys+pid": {
-      "site_base_url": "https://v.xlys.ltd.ua",
+      "site_base_url": "https://v.xl01.com.de",
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
       "videos": {
@@ -214,7 +214,13 @@
             "27": 192691,
             "28": 192692,
             "29": 192787,
-            "30": 192788
+            "30": 192788,
+            "31": 192828,
+            "32": 192829,
+            "33": 192830,
+            "34": 192831,
+            "35": 192832,
+            "36": 192833
           }
         },
         "27": {
