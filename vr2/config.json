@@ -319,6 +319,14 @@
             "35": "ep35.m3u8",
             "36": "ep36.m3u8"
           }
+        },
+        "35": {
+          "name": "焚城",
+          "image": "https://pub.duboku.net/upload/vod/20250328-1/ea04e3ce2205603540f608dd96ea8100.jpg",
+          "url": "/voddetail/5344.html",
+          "episodes": {
+            "1": "ep1.m3u8"
+          }
         }
       }
     },
