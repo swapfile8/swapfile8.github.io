@@ -289,25 +289,6 @@
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
       "video_url_format": 3,
       "videos": {
-        "33": {
-          "name": "机智住院医生生活",
-          "image": "https://pub.duboku.net/upload/vod/20250412-1/3f9305cfd6f1782d585d293ae8305236.jpg",
-          "url": "/voddetail/5389.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8",
-            "7": "ep7.m3u8",
-            "8": "ep8.m3u8",
-            "9": "ep9.m3u8",
-            "10": "ep10.m3u8",
-            "11": "ep11.m3u8",
-            "12": "ep12.m3u8"
-          }
-        },
         "36": {
           "name": "你的味道",
           "image": "https://pub.duboku.net/upload/vod/20250512-1/e7cd57c2ddc5edec010f9559229b30e3.jpg",
