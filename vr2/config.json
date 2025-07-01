@@ -20,25 +20,6 @@
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
       "videos": {
-        "28": {
-          "name": "机智住院医生生活",
-          "image": "https://wework.qpic.cn/wwpic3az/540157_m4JBPrcLSvOmj21_1745058919/0",
-          "url": "/hanju/26062.htm",
-          "episodes": {
-            "1": 192396,
-            "2": 192397,
-            "3": 192658,
-            "4": 192659,
-            "5": 192976,
-            "6": 192977,
-            "7": 193185,
-            "8": 193186,
-            "9": 193295,
-            "10": 193296,
-            "11": 193631,
-            "12": 193632
-          }
-        },
         "31": {
           "name": "混沌少年时 第一季",
           "image": "https://wework.qpic.cn/wwpic3az/294669_GZrf6k_-Q6KvvxC_1743072075/0",
