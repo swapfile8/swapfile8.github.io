@@ -1,0 +1,32 @@
+{
+    "GULLON無糖全麥餅": {
+        "kcal": 431,
+        "protein": 6.1,
+        "fat": 17,
+        "saturated-fat": 1.7,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 65,
+        "sugar": 0.45,
+        "dietary-fiber": 9.3,
+        "sodium": 260,
+        "calcium": 0,
+        "total-g-ml": 170,
+        "servings": 20
+    },
+    "GULLON無糖碎朱古力曲奇": {
+        "kcal": 458,
+        "protein": 5.9,
+        "fat": 24,
+        "saturated-fat": 6,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 63,
+        "sugar": 0.45,
+        "dietary-fiber": 4,
+        "sodium": 232,
+        "calcium": 0,
+        "total-g-ml": 125,
+        "servings": 9
+    }
+}
