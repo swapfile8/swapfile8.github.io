@@ -43,5 +43,35 @@
         "calcium": 0,
         "total-g-ml": 840,
         "servings": 42
+    },
+    "灣仔碼頭韮菜鮮蝦水餃": {
+        "kcal": 194,
+        "protein": 6.4,
+        "fat": 10.6,
+        "saturated-fat": 3.0,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 18.3,
+        "sugar": 2.3,
+        "dietary-fiber": 0,
+        "sodium": 590,
+        "calcium": 0,
+        "total-g-ml": 840,
+        "servings": 42
+    },
+    "灣仔碼頭川香麻辣白菜豬肉水餃": {
+        "kcal": 172,
+        "protein": 5.1,
+        "fat": 6.0,
+        "saturated-fat": 2.8,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 24.3,
+        "sugar": 3.6,
+        "dietary-fiber": 0,
+        "sodium": 530,
+        "calcium": 0,
+        "total-g-ml": 840,
+        "servings": 42
     }
 }
