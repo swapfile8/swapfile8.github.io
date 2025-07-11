@@ -29,7 +29,7 @@
         "total-g-ml": 125,
         "servings": 9
     },
-    "瑞士蓮90朱古力": {
+    "瑞士蓮90朱古力(百佳)": {
         "kcal": 605,
         "protein": 10.5,
         "fat": 53.5,
@@ -43,6 +43,21 @@
         "calcium": 0,
         "total-g-ml": 100,
         "servings": 10
+    },
+    "SOYJOY杏仁朱古力": {
+        "kcal": 130,
+        "protein": 5,
+        "fat": 8.3,
+        "saturated-fat": 2.2,
+        "trans-fat": 0,
+        "cholesterol": 8.1,
+        "carbs": 11,
+        "sugar": 6.7,
+        "dietary-fiber": 4.3,
+        "sodium": 46.7,
+        "calcium": 0,
+        "total-g-ml": 27,
+        "servings": 1
     },
     "鈣思寶高鈣無糖原味豆奶": {
         "kcal": 22,
