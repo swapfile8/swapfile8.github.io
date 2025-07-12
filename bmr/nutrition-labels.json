@@ -133,5 +133,35 @@
         "calcium": 0,
         "total-g-ml": 840,
         "servings": 42
+    },
+    "冷卡蕎麥䓤油麵": {
+        "kcal": 370,
+        "protein": 13.6,
+        "fat": 0,
+        "saturated-fat": 0,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 77.4,
+        "sugar": 0,
+        "dietary-fiber": 0,
+        "sodium": 31,
+        "calcium": 0,
+        "total-g-ml": 60,
+        "servings": 1
+    },
+    "冷卡蕎麥䓤油麵調料包": {
+        "kcal": 581,
+        "protein": 1.4,
+        "fat": 59.2,
+        "saturated-fat": 0,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 12.7,
+        "sugar": 0,
+        "dietary-fiber": 0,
+        "sodium": 2958,
+        "calcium": 0,
+        "total-g-ml": 20,
+        "servings": 1
     }
 }
