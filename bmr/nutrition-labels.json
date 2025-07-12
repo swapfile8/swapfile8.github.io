@@ -163,5 +163,20 @@
         "calcium": 0,
         "total-g-ml": 20,
         "servings": 1
+    },
+    "壽桃牌低脂蕎麥麵": {
+        "kcal": 377,
+        "protein": 15.7,
+        "fat": 0,
+        "saturated-fat": 0,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 78,
+        "sugar": 1.9,
+        "dietary-fiber": 12,
+        "sodium": 264,
+        "calcium": 23.7,
+        "total-g-ml": 75,
+        "servings": 1
     }
 }
