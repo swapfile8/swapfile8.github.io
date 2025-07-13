@@ -193,5 +193,20 @@
         "calcium": 23.7,
         "total-g-ml": 75,
         "servings": 1
+    },
+    "壹品有機鹽滷豆腐": {
+        "kcal": 70,
+        "protein": 6.9,
+        "fat": 3.6,
+        "saturated-fat": 0.7,
+        "trans-fat": 0,
+        "cholesterol": 0,
+        "carbs": 4,
+        "sugar": 0.7,
+        "dietary-fiber": 1.5,
+        "sodium": 0,
+        "calcium": 0,
+        "total-g-ml": 360,
+        "servings": 4
     }
 }
