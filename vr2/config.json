@@ -342,23 +342,6 @@
       "video_base_url": "https://swapfile8.github.io/vr2/duboku",
       "video_url_format": 3,
       "videos": {
-        "36": {
-          "name": "你的味道",
-          "image": "https://pub.duboku.net/upload/vod/20250512-1/e7cd57c2ddc5edec010f9559229b30e3.jpg",
-          "url": "/voddetail/5467.html",
-          "episodes": {
-            "1": "ep1.m3u8",
-            "2": "ep2.m3u8",
-            "3": "ep3.m3u8",
-            "4": "ep4.m3u8",
-            "5": "ep5.m3u8",
-            "6": "ep6.m3u8",
-            "7": "ep7.m3u8",
-            "8": "ep8.m3u8",
-            "9": "ep9.m3u8",
-            "10": "ep10.m3u8"
-          }
-        },
         "43": {
           "name": "鱿鱼游戏3",
           "image": "https://pub.duboku.net/upload/vod/20250627-1/3f921844f8bfa9f6fcac85ee0e8feff8.jpg",
