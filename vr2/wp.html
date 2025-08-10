@@ -59,18 +59,18 @@ body {
 .menu-icon {
     position: absolute;
     top: .5rem;
-    right: -.875rem;
+    right: -1.5rem;
     height: 1.5rem;
 }
 .menu-icon > svg {
     height: 100%;
     stroke: #000;
     fill: #28a745 !important;
-    transition: transform .66s ease, fill .66s ease;
+    transition: transform .66s ease, fill 1.5s ease;
 }
 .menu-icon.opened > svg {
     fill: #dc3545 !important;
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
 .menu-icon path.opened-hide {
     transition: opacity 1.5s ease;
