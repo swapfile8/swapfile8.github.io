@@ -352,6 +352,24 @@
             "19": "https://v12.gggread.com/wjv12/202508/08/jkRj6uFNMF84/video/1000k_720/hls/index.m3u8",
             "20": "https://v10.gggread.com/wjv10/202508/08/jFty11tYAu82/video/1000k_720/hls/index.m3u8"
           }
+        },
+        "3": {
+          "name": "瑞草洞",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250705-1/2da9c89b6c6e48589355598b7c933b52.jpg",
+          "url": "/vod/327963.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202507/05/AczDv3cYdZ24/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202507/06/KKmkEmMgsa21/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202507/12/NTKuwHADYA19/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202507/13/jML33em5J119/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v13.yuglf.com/202507/19/vwnmJeb9rc21/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v14.yuglf.com/202507/20/a0L0EhtUpV22/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v13.yuglf.com/202507/26/G4sdkWapDp20/video/2000k_1080/hls/index.m3u8",
+            "8": "https://v13.yuglf.com/202507/27/WCbXEztdYi24/video/2000k_1080/hls/index.m3u8",
+            "9": "https://v13.yuglf.com/202508/02/Pa5PrSYvDq20/video/2000k_1080/hls/index.m3u8",
+            "10": "https://v14.yuglf.com/202508/03/eqRtp6JHMi21/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v13.yuglf.com/202508/09/W02kqpLcGm19/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
