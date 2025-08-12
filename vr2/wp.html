@@ -173,7 +173,7 @@ body {
 "use strict";
 $(function() {
     const cl = console.log;
-    fetch("https://swapfile8.github.io/vr2/config.json").then(async function(resp) {
+    fetch("https://swapfile8.github.io/vr2/config.json", {cache: "no-store"}).then(async function(resp) {
         const sites = (await resp.json()).sites;
         const keys = Object.keys(sites).filter(x => Object.keys(sites[x].videos) != 0);
         const menu = keys.map(function(k) {
