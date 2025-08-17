@@ -278,6 +278,33 @@
             "3": "https://cdn.wlcdn88.com:777/5c55cf17/index.m3u8",
             "4": "https://cdn.wlcdn88.com:777/44a2fe56/index.m3u8"
           }
+        },
+        "5": {
+          "name": "锦月如歌",
+          "image": "https://0img.hitv.com/preview/sp_images/2025/07/30/202507301008237051577.jpg",
+          "url": "/vod/328992.html",
+          "episodes": {
+            "1": "https://v13.yuglf.com/202508/06/nXtUpX3XkP19/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v14.yuglf.com/202508/06/Bx8UZn3nSs23/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v13.yuglf.com/202508/06/syhPixzA5719/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202508/06/Qf5mWxzEEX20/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202508/06/wLxjDD7RED21/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v13.yuglf.com/202508/07/Qh1hd657aQ21/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v13.yuglf.com/202508/07/XBmHVmkA9t23/video/2000k_1080/hls/index.m3u8",
+            "8": "https://v13.yuglf.com/202508/08/B1Psvbc2ng20/video/2000k_1080/hls/index.m3u8",
+            "9": "https://v13.yuglf.com/202508/08/XX5TPUKC6224/video/2000k_1080/hls/index.m3u8",
+            "10": "https://v14.yuglf.com/202508/09/4g0W2mXyxs20/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v13.yuglf.com/202508/09/9KQf8Tm6E924/video/2000k_1080/hls/index.m3u8",
+            "12": "https://v13.yuglf.com/202508/10/2YEsQmVNkA22/video/2000k_1080/hls/index.m3u8",
+            "13": "https://v14.yuglf.com/202508/10/ckvt713c9424/video/2000k_1080/hls/index.m3u8",
+            "14": "https://v14.yuglf.com/202508/11/fbu6GxYFkf24/video/2000k_1080/hls/index.m3u8",
+            "15": "https://v13.yuglf.com/202508/11/LT2nmMn7Bv22/video/2000k_1080/hls/index.m3u8",
+            "16": "https://v14.yuglf.com/202508/12/dwXnR6sAEX23/video/2000k_1080/hls/index.m3u8",
+            "17": "https://v13.yuglf.com/202508/12/4RtgF5B5jW24/video/2000k_1080/hls/index.m3u8",
+            "18": "https://v14.yuglf.com/202508/13/B5fQ93rBTQ24/video/2000k_1080/hls/index.m3u8",
+            "19": "https://v13.yuglf.com/202508/13/K0KFsEkLNU21/video/2000k_1080/hls/index.m3u8",
+            "20": "https://v13.yuglf.com/202508/14/BG5Nze6yww20/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
