@@ -318,6 +318,18 @@
             "24": "https://v14.yuglf.com/202508/16/X0EUKaR75j22/video/2000k_1080/hls/index.m3u8",
             "25": "https://v13.yuglf.com/202508/16/mCbpusjnHv21/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "6": {
+          "name": "子夜归",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250818-1/7026b30a1062d7b80a19f17d66eb614d.jpg",
+          "url": "/vod/329495.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202508/18/QBPgTRTMQS21/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v14.yuglf.com/202508/18/CZ87dms62q20/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202508/18/3LtKZ6jT4S23/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v14.yuglf.com/202508/18/7pH6KRMcfF20/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v13.yuglf.com/202508/18/5pFNu1qBAS20/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
