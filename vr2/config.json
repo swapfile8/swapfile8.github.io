@@ -347,6 +347,20 @@
             "10": "https://v13.yuglf.com/202508/21/gxWkwQU4d119/video/2000k_1080/hls/index.m3u8",
             "11": "https://v13.yuglf.com/202508/21/FME2Khxh7920/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "7": {
+          "name": "搏忆",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250821-1/74deacbf714cb10691b79ce20884322a.jpg",
+          "url": "/vod/329603.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202508/21/v1h7SzzwgQ19/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v14.yuglf.com/202508/21/JneTKuRnzQ23/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v13.yuglf.com/202508/21/nKYYUTtTZm22/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202508/21/QQCNjkhzx521/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202508/21/75yutR0EuA24/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v14.yuglf.com/202508/21/fEg1Snsx8G21/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v13.yuglf.com/202508/21/GhFDgnEc8i19/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
