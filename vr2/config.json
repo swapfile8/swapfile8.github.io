@@ -410,6 +410,15 @@
             "13": "https://v13.yuglf.com/202508/24/CiN462YsG322/video/2000k_1080/hls/index.m3u8",
             "14": "https://v13.yuglf.com/202508/25/6cJTAwJLL123/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "8": {
+          "name": "暴君的厨师",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250823-1/7a2a53ef5b8b704de2f99fd5affb6a04.jpg",
+          "url": "/vod/329715.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202508/24/jYuXJDHzEm22/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202508/24/n00cpKSwt920/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
