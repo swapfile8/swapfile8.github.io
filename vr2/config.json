@@ -7,6 +7,10 @@
     "iplay",
     "pxx"
   ],
+  "imaple_playlist_priority": [
+    "卧龙云",
+    "卧龍雲"
+  ],
   "sites": {
     "bdys": {
       "site_base_url": "https://v.xl01.com.de",
