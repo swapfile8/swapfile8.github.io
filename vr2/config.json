@@ -442,6 +442,15 @@
             "19": "https://cdn.wlcdn88.com:777/80e8d0c2/index.m3u8",
             "20": "https://cdn.wlcdn88.com:777/661f7223/index.m3u8"
           }
+        },
+        "7": {
+          "name": "暴君的厨师",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250823-1/7a2a53ef5b8b704de2f99fd5affb6a04.jpg",
+          "url": "/vod/329715.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/159f94c1/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/16f1ebf5/index.m3u8"
+          }
         }
       }
     }
