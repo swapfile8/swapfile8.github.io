@@ -317,23 +317,6 @@
       "video_base_url": "",
       "video_url_format": 1,
       "videos": {
-        "1": {
-          "name": "请和我的老公结婚日版",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20250627-1/25e44d1c0e47346d87966356d284cd31.jpg",
-          "url": "/vod/327528.html",
-          "episodes": {
-            "1": "https://v14.yuglf.com/202506/26/ZFgBLEL5dL20/video/2000k_1080/hls/index.m3u8",
-            "2": "https://v13.yuglf.com/202506/26/6ER9vKDtVH21/video/2000k_1080/hls/index.m3u8",
-            "3": "https://v13.yuglf.com/202507/04/Um8v4F43ur24/video/2000k_1080/hls/index.m3u8",
-            "4": "https://v14.yuglf.com/202507/04/XVWjHQkNv919/video/2000k_1080/hls/index.m3u8",
-            "5": "https://v13.yuglf.com/202507/10/m1SSyU43J422/video/2000k_1080/hls/index.m3u8",
-            "6": "https://v13.yuglf.com/202507/10/4tKC3rqZaZ20/video/2000k_1080/hls/index.m3u8",
-            "7": "https://v13.yuglf.com/202507/17/JSNdfy2skE19/video/2000k_1080/hls/index.m3u8",
-            "8": "https://v13.yuglf.com/202507/17/rjkTFzr0Gz22/video/2000k_1080/hls/index.m3u8",
-            "9": "https://v14.yuglf.com/202507/25/qkfmfPK60W23/video/2000k_1080/hls/index.m3u8",
-            "10": "https://v14.yuglf.com/202507/25/yAWm5GsHKF21/video/2000k_1080/hls/index.m3u8"
-          }
-        },
         "4": {
           "name": "星期三第二季",
           "image": "https://img.avdb.me/chinaq/upload/vod/20250806-1/ddb551065bd19a1da43c2d7b6f1a537c.jpg",
