@@ -543,6 +543,19 @@
             "9": "https://cdn.wlcdn88.com:777/dbeae030/index.m3u8",
             "10": "https://cdn.wlcdn88.com:777/edb506ad/index.m3u8"
           }
+        },
+        "12": {
+          "name": "黑白局",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250905-1/d251e8650511b7f56f9d668d07cdb603.jpg",
+          "url": "/vod/330060.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/d1154710/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/24a79096/index.m3u8",
+            "3": "https://cdn.wlcdn88.com:777/876c7a10/index.m3u8",
+            "4": "https://cdn.wlcdn88.com:777/08e571a4/index.m3u8",
+            "5": "https://cdn.wlcdn88.com:777/c157d41b/index.m3u8",
+            "6": "https://cdn.wlcdn88.com:777/8165d81c/index.m3u8"
+          }
         }
       }
     }
