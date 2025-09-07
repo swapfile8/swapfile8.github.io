@@ -564,6 +564,18 @@
           "episodes": {
             "1": "https://cdn.wlcdn88.com:777/2d3de03d/index.m3u8"
           }
+        },
+        "14": {
+          "name": "十二使者",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250824-1/4b44a72242004f190459436d75f07fe8.jpg",
+          "url": "/vod/329717.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/d11d81ce/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/0fdb3a02/index.m3u8",
+            "3": "https://cdn.wlcdn88.com:777/78e9271b/index.m3u8",
+            "4": "https://cdn.wlcdn88.com:777/608daedc/index.m3u8",
+            "5": "https://cdn.wlcdn88.com:777/edffe96b/index.m3u8"
+          }
         }
       }
     }
