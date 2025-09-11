@@ -679,6 +679,16 @@
             "23": "https://cdn.wlcdn88.com:777/ac5ddbba/index.m3u8",
             "24": "https://cdn.wlcdn88.com:777/279cb20e/index.m3u8"
           }
+        },
+        "17": {
+          "name": "暴风圈",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250910-1/bc0d79a49725053bfd831c404661b00d.jpg",
+          "url": "/vod/330183.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/4cceeb52/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/1e088f8a/index.m3u8",
+            "3": "https://cdn.wlcdn88.com:777/0a138226/index.m3u8"
+          }
         }
       }
     }
