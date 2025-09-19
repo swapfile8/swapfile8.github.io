@@ -565,6 +565,19 @@
             "4": "https://cdn.wlcdn88.com:777/f1a61e38/index.m3u8",
             "5": "https://cdn.wlcdn88.com:777/196598a4/index.m3u8"
           }
+        },
+        "18": {
+          "name": "金式森林粤语",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20250917-1/87a5f084e18f2f9e532acf3359277834.jpg",
+          "url": "/vod/330383.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/59e6d084/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/cf10a4c3/index.m3u8",
+            "3": "https://cdn.wlcdn88.com:777/659aff12/index.m3u8",
+            "4": "https://cdn.wlcdn88.com:777/f466a501/index.m3u8",
+            "5": "https://cdn.wlcdn88.com:777/9affcec2/index.m3u8",
+            "6": "https://cdn.wlcdn88.com:777/3e6ee768/index.m3u8"
+          }
         }
       }
     }
