@@ -271,7 +271,8 @@
             {"ticker": "3858.HK", "date": "29/08/25", "bs": 0, "qty": 400, "price": 28.640, "txfee": -64.98, "cost": 25.000},
             {"ticker": "3033.HK", "date": "17/09/25", "bs": 1, "qty": 1000, "price": 6.165, "txfee": -52.53},
             {"ticker": "3033.HK", "date": "22/09/25", "bs": 1, "qty": 2000, "price": 6.105, "txfee": -53.04},
-            {"ticker": "0939.HK", "date": "22/09/25", "bs": 1, "qty": 2000, "price": 7.450, "txfee": -68.26}
+            {"ticker": "0939.HK", "date": "22/09/25", "bs": 1, "qty": 2000, "price": 7.450, "txfee": -68.26},
+            {"ticker": "3033.HK", "date": "30/09/25", "bs": 0, "qty": 3000, "price": 6.300, "txfee": -53.61, "cost": 6.125}
         ],
         "div": [
             {"ticker": "0005.HK", "date": "01/01/18", "amt": 4679.714},
