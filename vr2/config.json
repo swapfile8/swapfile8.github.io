@@ -361,6 +361,19 @@
             "3": "https://v13.yuglf.com/202511/05/yMCTj4b6n323/video/2000k_1080/hls/index.m3u8",
             "4": "https://v14.yuglf.com/202511/05/csz7dimmK221/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "24": {
+          "name": "四喜",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251107-1/eb0987846286192756c262fbcd952879.jpg",
+          "url": "/vod/331787.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202511/07/9WrHKsaPRZ24/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202511/07/9bAHEmQqXr22/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202511/07/tgRBB19hcU23/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202511/07/azmjwLSR7T23/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202511/08/5K78FA6hvQ23/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v13.yuglf.com/202511/08/gUkatWSu0e23/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
