@@ -322,6 +322,23 @@
             "12": "https://cdn.wlcdn88.com:777/e18dfce5/index.m3u8",
             "13": "https://cdn.wlcdn88.com:777/ba6e0596/index.m3u8"
           }
+        },
+        "21": {
+          "name": "唐朝诡事录之长安",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251108-1/d957b727ae7e79ae1b10f5153824a0ad.jpg",
+          "url": "/vod/331800.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn88.com:777/ff73ff01/index.m3u8",
+            "2": "https://cdn.wlcdn88.com:777/bf52470b/index.m3u8",
+            "3": "https://cdn.wlcdn88.com:777/254c580f/index.m3u8",
+            "4": "https://cdn.wlcdn88.com:777/6f2aaadd/index.m3u8",
+            "5": "https://cdn.wlcdn88.com:777/83cccda0/index.m3u8",
+            "6": "https://cdn.wlcdn88.com:777/5828ebd4/index.m3u8",
+            "7": "https://cdn.wlcdn88.com:777/656d7506/index.m3u8",
+            "8": "https://cdn.wlcdn88.com:777/b5f8b9e4/index.m3u8",
+            "9": "https://cdn.wlcdn88.com:777/ef823b81/index.m3u8",
+            "10": "https://cdn.wlcdn88.com:777/d62ad31b/index.m3u8"
+          }
         }
       }
     }
