@@ -322,17 +322,6 @@
             "12": "https://cdn.wlcdn88.com:777/e18dfce5/index.m3u8",
             "13": "https://cdn.wlcdn88.com:777/ba6e0596/index.m3u8"
           }
-        },
-        "23": {
-          "name": "操控游戏",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20251105-1/5445acb37679ab891b735f917e8641b9.jpg",
-          "url": "/vod/331729.html",
-          "episodes": {
-            "1": "https://v13.yuglf.com/202511/05/KiXTd8Tcpr20/video/2000k_1080/hls/index.m3u8",
-            "2": "https://v13.yuglf.com/202511/05/JnvDdiCqL922/video/2000k_1080/hls/index.m3u8",
-            "3": "https://v13.yuglf.com/202511/05/yMCTj4b6n323/video/2000k_1080/hls/index.m3u8",
-            "4": "https://v14.yuglf.com/202511/05/csz7dimmK221/video/2000k_1080/hls/index.m3u8"
-          }
         }
       }
     }
