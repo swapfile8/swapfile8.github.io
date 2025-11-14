@@ -359,6 +359,29 @@
             "19": "https://v14.yuglf.com/202511/05/6Fs2xTEpVW21/video/2000k_1080/hls/index.m3u8",
             "20": "https://v14.yuglf.com/202511/06/pMZKTgdi4619/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "24": {
+          "name": "四喜",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251107-1/eb0987846286192756c262fbcd952879.jpg",
+          "url": "/vod/331787.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202511/07/9WrHKsaPRZ24/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202511/07/9bAHEmQqXr22/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202511/07/tgRBB19hcU23/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202511/07/azmjwLSR7T23/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202511/08/5K78FA6hvQ23/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v13.yuglf.com/202511/08/gUkatWSu0e23/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v13.yuglf.com/202511/09/it7mwX2fK323/video/2000k_1080/hls/index.m3u8",
+            "8": "https://v14.yuglf.com/202511/09/hDQt90up2u20/video/2000k_1080/hls/index.m3u8",
+            "9": "https://v13.yuglf.com/202511/10/6xGipVSUDd22/video/2000k_1080/hls/index.m3u8",
+            "10": "https://v14.yuglf.com/202511/10/2ypFgcNTXU23/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v13.yuglf.com/202511/11/s300gfsV9T19/video/2000k_1080/hls/index.m3u8",
+            "12": "https://v13.yuglf.com/202511/11/ixcLRNQ56d21/video/2000k_1080/hls/index.m3u8",
+            "13": "https://v14.yuglf.com/202511/12/Y0iw5EMW7D24/video/2000k_1080/hls/index.m3u8",
+            "14": "https://v13.yuglf.com/202511/12/RBXd3ntXc022/video/2000k_1080/hls/index.m3u8",
+            "15": "https://v14.yuglf.com/202511/13/N6aFuvakig23/video/2000k_1080/hls/index.m3u8",
+            "16": "https://v13.yuglf.com/202511/14/9tkWTdRtE423/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
