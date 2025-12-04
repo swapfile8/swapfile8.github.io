@@ -293,9 +293,7 @@
             "19": 198735,
             "20": 198736,
             "21": 198757,
-            "22": 198758,
-            "23": 198780,
-            "24": 198781
+            "22": 198758
           }
         }
       }
@@ -409,7 +407,9 @@
             "7": "https://v13.yuglf.com/202511/19/w8BxPWyamN22/video/2000k_1080/hls/index.m3u8",
             "8": "https://v14.yuglf.com/202511/19/EwBbyEdfMc19/video/2000k_1080/hls/index.m3u8",
             "9": "https://v14.yuglf.com/202511/26/ABhr0kNQ3s21/video/2000k_1080/hls/index.m3u8",
-            "10": "https://v13.yuglf.com/202511/26/4VZ7n8gdpk20/video/2000k_1080/hls/index.m3u8"
+            "10": "https://v13.yuglf.com/202511/26/4VZ7n8gdpk20/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v13.yuglf.com/202512/03/vzbupfg36G27/video/2000k_1080/hls/index.m3u8",
+            "12": "https://v13.yuglf.com/202512/03/rJNYKWs7nH22/video/2000k_1080/hls/index.m3u8"
           }
         },
         "23": {
