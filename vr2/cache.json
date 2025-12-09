@@ -2369,5 +2369,47 @@
         "https://vod.xlys.cc.ua/hls_tos_hls3_c1703907-2eb8-4c28-bd42-36e8f0fc8f5d.m3u8.png#tos_hls3"
       ]
     }
+  },
+  "198854": {
+    "pid": "198854",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/bdfef5eaca104b6e95fdf2b5b184b253?x-expires=1765268690340&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/3da202b47509cbc7c61db92896850edc/85691ca9/video/tos/alisg/tos-alisg-v-26190a-sg/oUqAm7mYE4MBYT9wAAAcAEfwgPAi3Gi0wEAEIl/",
+        "https://p16a.hypstarcdn.com/obj/tos-maliva-o-0000-us/oAQPTSA863BAwUiGwAAdOiI9HAnTEiEaAc1Aw?x-expires=1765268690490&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_a119dbae-8147-4bc0-abe8-a4d97db859ac.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_0bf56276-45b7-4446-9637-6bb81e2aa50e.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198855": {
+    "pid": "198855",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/063aafa83b1748999a71b3bb9d252750?x-expires=1765268689062&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/7a57e3e4f1e17baf958ecad15dee68fd/85691cc8/video/tos/alisg/tos-alisg-v-26190a-sg/oQE3EAAAcGtmYkB06iEbfWpmOw4gUiAwq14CAz/",
+        "https://sf16-starling-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/oM4pD8K8AAAfABE7QEFnNEJDgfTL6qxEBDCA3A?x-expires=1765268689215&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_e408ce45-3205-46a5-897d-22cc0e6bc414.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_665533a9-f0f2-4104-866c-f2c32927d402.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198856": {
+    "pid": "198856",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/5164dd5af34a422c8532eee72469c931?x-expires=1765268688988&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/fa454b7a9896b753f322cea8a6f9bdbd/85691ce5/video/tos/alisg/tos-alisg-v-26190a-sg/owSTQcfBiMQN7BAAEYeC8XS7CDoaRQkczjbifA/",
+        "https://sf16-starling-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/oIAAgBs0EikAAgaAll3fBiEmABHkT4Ey8US4Eo?x-expires=1765268689140&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_a44da4e9-f6ad-4ff3-9d07-22de1c01f2a7.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_5748acac-8ea6-46de-884e-91f473ba63ea.m3u8.png#tos_hls3"
+      ]
+    }
   }
 }
