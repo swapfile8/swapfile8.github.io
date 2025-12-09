@@ -2286,6 +2286,90 @@
       ]
     }
   },
+  "198825": {
+    "pid": "198825",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/c03e8cfede9b4499be13b39be7e12986?x-expires=1765269590401&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/fc9abb3a1a8c271993270c6b3e4c1c7d/856929c8/video/tos/alisg/tos-alisg-v-26190a-sg/ooBbxGANzFEATAxAEpEDwrf5EAVRgq5fBU31a5/",
+        "https://p16-tiktok-sg-h2.ibyteimg.com/obj/tos-maliva-o-0000-us/o0AAZcaxAEwTQPVKdUaiA3BimBiMQAT3YAFAW?x-expires=1765269590556&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_5c13821d-27c2-4c08-a4e0-f0b823b26ede.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_627e28fe-3c9c-4df4-b7a5-1759a49fbea1.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198826": {
+    "pid": "198826",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/215fed7079874cd28cc8de0bdf20bda2?x-expires=1765269590557&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/b9b84ccdae5d610a27a15a7a8f06bee4/85691f63/video/tos/alisg/tos-alisg-v-26190a-sg/oYFxsegBqEAXFAFpxJA5EGE3frAECBBUHDi5NF/",
+        "https://sf16-starling-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/ocPAF4eEmBgiLqVEAA0A8AAgimson0PABBg3iA?x-expires=1765269590708&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_4f9d7626-62ba-4ae1-9355-cc153e31acab.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_d74523c1-bb58-49d3-999c-fa0c74cf337b.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198827": {
+    "pid": "198827",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/76b67fd0542e489798a34579bee503d1?x-expires=1765269589697&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/397c8071ef8e2b08c81883e52c564baa/856929d6/video/tos/alisg/tos-alisg-v-26190a-sg/oscDIgLYA4oHVMfuDAGiIXbHznSBNCJBAjIee2/",
+        "https://sf16-draftcdn-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/oEu3cyQNfAEy9aAZADBpPpCAFEBJFDA2qxAA2e?x-expires=1765269589852&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_0188dc9f-4ef7-4d4e-9c5b-0088367e8d86.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_4445e06d-aa84-41f3-a9e0-5d2f30b69407.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198828": {
+    "pid": "198828",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/0ab1e347426844108ee6ad4b06e4b312?x-expires=1765269589935&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/33d51a4eb1f51b4d12e81962d3a154a0/85691f96/video/tos/alisg/tos-alisg-v-26190a-sg/oYgATBfEugNvp4WUaEBr5Cx7AoEiFfAADnExG3/",
+        "https://p16.hypstarcdn.com/obj/tos-maliva-o-0000-us/o8A7IAyiFEdOiXAwWAq0TaUiNAcABArPu3Qtg?x-expires=1765269590089&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_678bb6d1-426b-4578-a7d6-c68b4ab363c5.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_677eb294-f6f7-4e49-a0d6-17eab133d4fd.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198829": {
+    "pid": "198829",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/a4f8dbc9db7e43ef9848851926632f2c?x-expires=1765269589915&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/836a91d34488400a395be848b8519869/85692a42/video/tos/alisg/tos-alisg-v-26190a-sg/ocfauzWxBABEAXg7mrDqUpIiNIAsEN5fxFsAJ5/",
+        "https://p16-ulike-sg.ibyteimg.com/obj/tos-maliva-o-0000-us/o0AipFVuEP2BErmBy3EBfgqgtwAiAA4oANZ0Ai?x-expires=1765269590066&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_c9bcbbb6-f25b-4c50-a200-285b6b8da06b.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_a4ae71d3-c834-4910-a994-25e2eface054.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "198830": {
+    "pid": "198830",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/5c36f4a01140466a8cbfa5bb130424e0?x-expires=1765269590396&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/bc7b528734c586c10535a8d890df2d67/85692a34/video/tos/alisg/tos-alisg-v-26190a-sg/o8iGEhYiAyTjb3aQEVJYKtPuzAEBAcA33COKM/",
+        "https://lf16-effectcdn-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/owABAvR30YpAfCxAwABxHEeqJNFBibiQAnxDY5?x-expires=1765269590547&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_3bba8624-fcf4-45c0-9fc4-5d23f7ff0ec0.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_3cb6f74e-1398-4527-831a-112624f325ff.m3u8.png#tos_hls3"
+      ]
+    }
+  },
   "198842": {
     "pid": "198842",
     "config": {
