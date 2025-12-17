@@ -539,6 +539,25 @@
             "11": "https://v14.yuglf.com/202512/04/k8qap3icZM27/video/2000k_1080/hls/index.m3u8",
             "12": "https://v13.yuglf.com/202512/04/NmMiQG51VF22/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "33": {
+          "name": "长安二十四计",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251212-1/eee8272462fd82b26729524e122050a8.jpg",
+          "url": "/vod/332517.html",
+          "episodes": {
+            "1": "https://v13.yuglf.com/202512/14/QiN3bg3hvX27/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202512/14/r0gmFQ6b3a27/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202512/14/0cdV9wuSmC22/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v14.yuglf.com/202512/14/7NBQ1FrWPq22/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v13.yuglf.com/202512/13/dkevgHV2QF22/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v13.yuglf.com/202512/14/Cy5xkytZGr22/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v13.yuglf.com/202512/14/5zsev8pJNm22/video/2000k_1080/hls/index.m3u8",
+            "8": "https://v13.yuglf.com/202512/14/0rpecWg4bv22/video/2000k_1080/hls/index.m3u8",
+            "9": "https://v13.yuglf.com/202512/15/XLBgjaH6ji22/video/2000k_1080/hls/index.m3u8",
+            "10": "https://v14.yuglf.com/202512/15/tw5yLBZsEq27/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v14.yuglf.com/202512/16/bXNiaXba3522/video/2000k_1080/hls/index.m3u8",
+            "12": "https://v14.yuglf.com/202512/16/n9hPGEJQZ922/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
