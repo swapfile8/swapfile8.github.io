@@ -497,6 +497,18 @@
             "13": "https://v14.yuglf.com/202512/17/yyJEQa7pMc27/video/2000k_1080/hls/index.m3u8",
             "14": "https://v13.yuglf.com/202512/17/5JHcd05wWd22/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "34": {
+          "name": "唐诡奇谭",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251217-1/32e916ada161a7c05172a7e3f5e6513b.jpg",
+          "url": "/vod/332616.html",
+          "episodes": {
+            "1": "https://v13.yuglf.com/202512/17/FdiTSSQFLQ27/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202512/17/y9jmte3Lsk22/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v13.yuglf.com/202512/17/TdiRR5ZtHh22/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v13.yuglf.com/202512/17/zCCKnQt8jW27/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202512/17/caqLwHqfp927/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
