@@ -2289,5 +2289,113 @@
         "https://vod.xlys.cc.ua/hls_tos_hls3_98b3c159-1f3f-4f94-abc6-a9c254e29168.m3u8.png#tos_hls3"
       ]
     }
+  },
+  "199132": {
+    "pid": "199132",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/706e04bd878a4c889c181e487064c62c?x-expires=1766107488149&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199133": {
+    "pid": "199133",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/91533736f8d24396b4d94946a7c93b4e?x-expires=1766107487993&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199134": {
+    "pid": "199134",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/9c23b33dc44541d6b4462c4dcba3fdee?x-expires=1766107488172&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199135": {
+    "pid": "199135",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/a64a067fe14b4138ac90367164e7f1e9?x-expires=1766107488132&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199136": {
+    "pid": "199136",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/44a55818c77848e99bc567c59867a9a4?x-expires=1766107488041&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199137": {
+    "pid": "199137",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/4edcd4c1e12b4416b9379a0f1098e737?x-expires=1766107487813&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199138": {
+    "pid": "199138",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/a4ffcf3ef13f4e77ab55a39eb09927ab?x-expires=1766107488173&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199139": {
+    "pid": "199139",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/42704063e11c48f39ccec3f5c92a88df?x-expires=1766107488240&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199140": {
+    "pid": "199140",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/9014c7231dcd458bb8d66008a176469c?x-expires=1766107488352&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199141": {
+    "pid": "199141",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/91da626b7f584442833cd8fa4f7100ed?x-expires=1766107488493&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199142": {
+    "pid": "199142",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/7cbfdcb8483e41278f52e27b116dd102?x-expires=1766107488449&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
+  },
+  "199143": {
+    "pid": "199143",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/b0a6d58de8f3443690a0b3d74ace59f4?x-expires=1766107488456&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D"
+      ],
+      "m": []
+    }
   }
 }
