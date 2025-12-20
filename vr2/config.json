@@ -561,6 +561,33 @@
             "7": "https://v13.yuglf.com/202512/18/XUUeDWrZ1n22/video/2000k_1080/hls/index.m3u8",
             "8": "https://v14.yuglf.com/202512/18/kDkjGihzVS22/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "35": {
+          "name": "时差一万公里",
+          "image": "https://3img.hitv.com/preview/sp_images/2025/11/21/202511211443409399748.jpg",
+          "url": "/vod/332220.html",
+          "episodes": {
+            "1": "https://v13.yuglf.com/202512/01/ucWrhGGXd322/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v13.yuglf.com/202512/01/ca4fpQXHS222/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v14.yuglf.com/202512/01/6Y0seHn3JQ22/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v14.yuglf.com/202512/01/Uhj9gnbTqE22/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v13.yuglf.com/202512/01/NTi0XQ6kWx22/video/2000k_1080/hls/index.m3u8",
+            "6": "https://v13.yuglf.com/202512/01/RAXRpJV3vh22/video/2000k_1080/hls/index.m3u8",
+            "7": "https://v14.yuglf.com/202512/02/UfaqXbvJ1W22/video/2000k_1080/hls/index.m3u8",
+            "8": "https://v14.yuglf.com/202512/02/mTdZRdJ8Wp22/video/2000k_1080/hls/index.m3u8",
+            "9": "https://v14.yuglf.com/202512/03/66xKtDYP4i22/video/2000k_1080/hls/index.m3u8",
+            "10": "https://v13.yuglf.com/202512/03/XMmyWcHCaB27/video/2000k_1080/hls/index.m3u8",
+            "11": "https://v13.yuglf.com/202512/04/gH9p5MA91427/video/2000k_1080/hls/index.m3u8",
+            "12": "https://v13.yuglf.com/202512/04/Cg7BJm0GTA27/video/2000k_1080/hls/index.m3u8",
+            "13": "https://v13.yuglf.com/202512/05/8sf53WitGF27/video/2000k_1080/hls/index.m3u8",
+            "14": "https://v14.yuglf.com/202512/06/CtyQ20fU5727/video/2000k_1080/hls/index.m3u8",
+            "15": "https://v14.yuglf.com/202512/07/XmkX3ZmvCv22/video/2000k_1080/hls/index.m3u8",
+            "16": "https://v14.yuglf.com/202512/08/jQXXDL90rq27/video/2000k_1080/hls/index.m3u8",
+            "17": "https://v14.yuglf.com/202512/08/sG2aPq2s9c22/video/2000k_1080/hls/index.m3u8",
+            "18": "https://v13.yuglf.com/202512/09/gz4eP5K0Ds22/video/2000k_1080/hls/index.m3u8",
+            "19": "https://v13.yuglf.com/202512/09/0gUM5E3vwA22/video/2000k_1080/hls/index.m3u8",
+            "20": "https://v13.yuglf.com/202512/10/QWg57VdCqU22/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
