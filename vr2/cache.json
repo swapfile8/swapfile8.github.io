@@ -2649,5 +2649,135 @@
       ],
       "m": []
     }
+  },
+  "199213": {
+    "pid": "199213",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/681ee120d4ac4f1bb3acb7124d404671?x-expires=1766298191394&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16.xzcs3zlph.com/obj/tos-maliva-o-0000-us/oE8Hy0BKimU4AiRBJAEEAogGtUAoBiB2BASfgs?x-expires=1766298191552&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_f1ae17d8-9f02-40db-af40-e4220e831430.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_959543f5-6ece-4bcd-95ac-f2a784f7943d.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199214": {
+    "pid": "199214",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/8ce01d8b0f30464ab93e4ae9700404ae?x-expires=1766298191992&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16-sg.toutiao50.com/obj/tos-maliva-o-0000-us/oQxeJFDSBDB3zAANzHEEClCAGAEQUsA4RpfAEB?x-expires=1766298192145&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_3d45ad8a-7b40-4447-bef1-ebe15d2c8376.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_475f2cf1-1ec3-4db2-88e8-c783047e75a9.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199218": {
+    "pid": "199218",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/3d51c004a3784dc5b8ec6ab6ae34079e?x-expires=1766298191514&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16-mt-sg-a.ibyteimg.com/obj/tos-maliva-o-0000-us/oIBvWCiAAAwimAHc6VPFYEAAUAamnBiwFQBJU?x-expires=1766298191670&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_03749357-5af7-4ce1-b762-d2d64701d759.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_1adba4e6-0ba8-4fa1-8304-078ab76daaeb.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199219": {
+    "pid": "199219",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/e5b2dbc0f28e4a18bf4256a404ebde01?x-expires=1766298191581&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16-security-sg.ibyteimg.com/obj/tos-maliva-o-0000-us/oUkZEJdZ4DAnFtAgAxF5BBpABDeQCC9RAGfCHE?x-expires=1766298191733&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_3842e205-eef3-4a3b-8d0f-ca16ce8b9d22.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_8a84f8e2-0e14-4caf-91a2-44947ef95bc6.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199232": {
+    "pid": "199232",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/501ddb7e42b94f3b816df261365f5548?x-expires=1766298191593&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16.toutiao50.com/obj/tos-maliva-o-0000-us/oQeFPDCUESBJB1AFFfqzHAw1pUADKDXXRAEQAB?x-expires=1766298191747&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_daddf720-268e-41db-ad24-395948de5e75.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_d6a58112-c27e-48f4-bf15-baecef069b1b.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199233": {
+    "pid": "199233",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/a73308ef6b514103811c94a612501095?x-expires=1766298191893&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16.xzcs3zlph.com/obj/tos-maliva-o-0000-us/oEWhw9KKNBxQbAA5PVAHvWEAiAUiaADZiUcBJ?x-expires=1766298192051&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_da3239f2-c8b0-4782-9f59-9852eacc9389.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_a46801d1-65c3-4003-ab5b-e95fc622e0dd.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199234": {
+    "pid": "199234",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/3e7307b84b794fcda8798a9937dc59bb?x-expires=1766298191306&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16-mt-sg.ibyteimg.com/obj/tos-maliva-o-0000-us/ooAfAe75GFClLAiMfOIGDmIxHIkAheSAc8GvYA?x-expires=1766298191461&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_e27ff2e3-ac2f-4a4e-ad46-85addd990395.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_bbb180c1-a20c-4625-b562-5472285fb12f.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199235": {
+    "pid": "199235",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/8e1d79d76a9f42b4bc03d5fa876a2476?x-expires=1766298192071&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://p16-webcast.muscdn.com/obj/tos-maliva-o-0000-us/o4fxALbBwp7FEQEEDJfFIDVDC4ANRABH25JAAB?x-expires=1766298192228&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_8f8c3d7f-e738-4398-89d6-9d3df7eb8736.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_e9343bb3-6f1b-43ec-9004-8e9bbde16cc6.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199236": {
+    "pid": "199236",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/caaeef1eff91402682ca6f05796fa358?x-expires=1766298191089&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://lf16-tiktok-common.ibytedtos.com/obj/tos-maliva-o-0000-us/ogEUuBCpnRHD3FetzLBDdQADJDBfAbsAmAApEw?x-expires=1766298191250&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_ca3032d1-2ef7-4557-8e3d-426513ea1848.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_e5baae26-81b7-4334-8bfc-138de7ee1655.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199237": {
+    "pid": "199237",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/47c1e49d59464157ab5dee9569764cb7?x-expires=1766298190991&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://sf-tk-sg.ibytedtos.com/obj/tos-maliva-o-0000-us/oYxfGSACeAExAEG1Gf0OvXAg9LDphjCAmSIICg?x-expires=1766298191142&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_ba9393cf-b66f-4e40-8c04-c7cf08b1900f.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_77b74c1f-3150-4c69-abed-723d1cb07d71.m3u8.png#tos_hls3"
+      ]
+    }
   }
 }
