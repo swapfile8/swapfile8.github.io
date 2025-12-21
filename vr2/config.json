@@ -310,7 +310,9 @@
             "13": 199140,
             "14": 199141,
             "15": 199142,
-            "16": 199143
+            "16": 199143,
+            "17": 199213,
+            "18": 199214
           }
         },
         "85": {
@@ -544,9 +546,7 @@
             "13": "https://v14.yuglf.com/202512/17/yyJEQa7pMc27/video/2000k_1080/hls/index.m3u8",
             "14": "https://v13.yuglf.com/202512/17/5JHcd05wWd22/video/2000k_1080/hls/index.m3u8",
             "15": "https://v14.yuglf.com/202512/18/VVxsUWKzuC22/video/2000k_1080/hls/index.m3u8",
-            "16": "https://v13.yuglf.com/202512/18/tW0eZP8X2Y27/video/2000k_1080/hls/index.m3u8",
-            "17": "https://v13.yuglf.com/202512/19/PL97yLCYFi22/video/2000k_1080/hls/index.m3u8",
-            "18": "https://v13.yuglf.com/202512/19/X7enJZ2hw027/video/2000k_1080/hls/index.m3u8"
+            "16": "https://v13.yuglf.com/202512/18/tW0eZP8X2Y27/video/2000k_1080/hls/index.m3u8"
           }
         },
         "34": {
