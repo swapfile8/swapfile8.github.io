@@ -638,6 +638,18 @@
             "39": "https://v14.yuglf.com/202512/19/Jm9P8wRSJ422/video/2000k_1080/hls/index.m3u8",
             "40": "https://v14.yuglf.com/202512/19/UYWEbFyfN422/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "36": {
+          "name": "骄阳似我2025",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20251222-1/13224615a6bb04df586c5900332dd2e6.jpg",
+          "url": "/vod/332716.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202512/22/FBF3NLv6K222/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v14.yuglf.com/202512/22/kpzyAYVXhq27/video/2000k_1080/hls/index.m3u8",
+            "3": "https://v13.yuglf.com/202512/22/21wMALmic522/video/2000k_1080/hls/index.m3u8",
+            "4": "https://v14.yuglf.com/202512/22/nUS0dHENEy22/video/2000k_1080/hls/index.m3u8",
+            "5": "https://v14.yuglf.com/202512/22/3hVckhAFkH27/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
