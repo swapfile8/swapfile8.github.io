@@ -2384,5 +2384,49 @@
         "https://vod.xlys.cc.ua/hls_tos_hls3_20a01865-db58-4607-88f0-b7852542e98c.m3u8.png#tos_hls3"
       ]
     }
+  },
+  "199604": {
+    "pid": "199604",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/068833735ce84ef6b571797b8ab35ca8?x-expires=1767576530995&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/d5b81de5ecf66e56d5f8f4a3950f8b94/858ccf25/video/tos/alisg/tos-alisg-v-26190a-sg/o4fBIUARcDxLgjAnAsFuB5pAKAhgtB6WIBfT1E/",
+        "https://p16.toutiao50.com/obj/tos-maliva-o-0000-us/o4uVaUTyaM5PqhihAAXAQBOOwH56iPAEBAxiA?x-expires=1767576531153&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": []
+    }
+  },
+  "199605": {
+    "pid": "199605",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/fc0d61bdde9b426f9c4c31ab57137085?x-expires=1767576530223&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/b1abb5c5255b93ca231965b2a8b175a3/858cc50d/video/tos/alisg/tos-alisg-v-26190a-sg/oQvamwedlEQADAG1wFaL1FGIEeGAS9ETfDejGJ/",
+        "https://p16-webcast-hypstarcdn.byteimg.com/obj/tos-maliva-o-0000-us/oAXFlDCNE2BJBoA5KffyaArqpjAuJDnWWAEQAB?x-expires=1767576530383&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": []
+    }
+  },
+  "199606": {
+    "pid": "199606",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/7d0e5cd166b048cda6d614f4b9564364?x-expires=1767576530868&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/f073fc657a9d815a10b26852219eab04/858ccf8e/video/tos/alisg/tos-alisg-v-26190a-sg/oMAaFA2ucVvOjVsirGIYOHYwBAEaAicA0Q6ME/",
+        "https://sf-anycross-public.larksuitecdn.com/obj/tos-maliva-o-0000-us/o8laM8YfMQCkALdhnAlAWIe1ITGuAAf0CFfAkK?x-expires=1767576531024&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": []
+    }
+  },
+  "199613": {
+    "pid": "199613",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/e4c6598bb9e54839a55eb9a04f1a74dc?x-expires=1767576530410&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/a02ab3e8870e3f858ba2c0dcbbf2d79d/858cc454/video/tos/alisg/tos-alisg-v-26190a-sg/oMXCAKtfFajSFDiuEe6LzvRDBEQBo1AeOptMEA/",
+        "https://p16-tiktok-sg-h2.ibyteimg.com/obj/tos-maliva-o-0000-us/oABq5aiYAAwiaAaqUhvuREAAVAaUlNixWQBBU?x-expires=1767576530565&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": []
+    }
   }
 }
