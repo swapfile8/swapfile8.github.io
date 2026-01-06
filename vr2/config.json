@@ -320,23 +320,6 @@
       "video_base_url": "",
       "video_url_format": 1,
       "videos": {
-        "11": {
-          "name": "请和我的老公结婚 日版",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20250627-1/b72fa530bbabc2859e8986ca0156cbd5.jpg",
-          "url": "/vod/327538.html",
-          "episodes": {
-            "1": "https://cdn.wlcdn88.com:777/2c94c7fd/index.m3u8",
-            "2": "https://cdn.wlcdn88.com:777/ebd34fb3/index.m3u8",
-            "3": "https://cdn.wlcdn88.com:777/e67ed34f/index.m3u8",
-            "4": "https://cdn.wlcdn88.com:777/deefae88/index.m3u8",
-            "5": "https://cdn.wlcdn88.com:777/e2f515dc/index.m3u8",
-            "6": "https://cdn.wlcdn88.com:777/d261fcf1/index.m3u8",
-            "7": "https://cdn.wlcdn88.com:777/b49434eb/index.m3u8",
-            "8": "https://cdn.wlcdn88.com:777/19de9fc9/index.m3u8",
-            "9": "https://cdn.wlcdn88.com:777/dbeae030/index.m3u8",
-            "10": "https://cdn.wlcdn88.com:777/edb506ad/index.m3u8"
-          }
-        },
         "20": {
           "name": "许愿吧，精灵",
           "image": "https://img.avdb.me/chinaq/upload/vod/20251004-1/72c85d7f8f80eb3623d73f9d1d0c3ba4.jpg",
