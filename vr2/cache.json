@@ -2621,5 +2621,33 @@
         "https://vod.xlys.cc.ua/hls_tos_hls3_b1cf03b9-3724-49b0-9d96-aa8d254f2737.m3u8.png#tos_hls3"
       ]
     }
+  },
+  "199762": {
+    "pid": "199762",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/9d1c6f0585d840fb94dd1f0f05926c77?x-expires=1767746971893&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/441722888dbe1f48d42cdf901ada2df0/858f3932/video/tos/alisg/tos-alisg-v-26190a-sg/o4BZxN7XyFFAgATAEpED7JfGEAc5gSeIBUdX35/",
+        "https://p16-webcast-hypstarcdn.byteimg.com/obj/tos-maliva-o-0000-us/oETD3XABeFSuACJAXpgmB3QABEE0fBkDAdMGbZ?x-expires=1767746972049&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_32fce040-7c88-44c6-94a2-af91b199b866.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_c857fac2-63f0-4c84-bc12-d10fa226aa0b.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "199763": {
+    "pid": "199763",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/d4ab54bccd4e4b9ea11535e4ef6a9db5?x-expires=1767746971158&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/d16c4e400b8429ce1b79f1e082b13dee/858f3955/video/tos/alisg/tos-alisg-v-26190a-sg/oIWA0fT6ygQ5DNAIA2jExyBUaBXFIfPTpWS8AK/",
+        "https://p16-ulike-sg.ibyteimg.com/obj/tos-maliva-o-0000-us/o8EdAABABMjXAtDpaFBTffU0qClDLEAQJDTICF?x-expires=1767746971315&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_ac5634-us_6819dfb1-f0b1-46cf-96ee-1782b6b2f726.m3u8.png#ac5634-us",
+        "https://vod.xlys.cc.ua/hls_tos_hls3_7a9a79c7-3519-4db4-b9c4-c2ac952c5bed.m3u8.png#tos_hls3"
+      ]
+    }
   }
 }
