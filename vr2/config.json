@@ -359,11 +359,22 @@
         }
       }
     },
-    "duboku": {
-      "site_base_url": "https://au.duboku.io",
-      "video_base_url": "https://swapfile8.github.io/vr2/duboku",
+    "gimy": {
+      "site_base_url": "https://gimyai.tv",
+      "video_base_url": "https://raw.githubusercontent.com/swapfile8/api-test/main/vr2",
       "video_url_format": 3,
-      "videos": {}
+      "videos": {
+        "1": {
+          "name": "剝繭",
+          "image": "https://img.1777cdn.com/upload/vod/20251229-1/759c10e5b49df7c71e1115ba20e07d87.jpg",
+          "url": "/vod/420352.html",
+          "episodes": {
+            "1": "ep01-LA40IW.m3u8",
+            "2": "ep02-lkGtHP.m3u8",
+            "3": "ep03-ZQ3xVY.m3u8"
+          }
+        }
+      }
     },
     "imaple": {
       "site_base_url": "https://imaple.app",
