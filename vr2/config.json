@@ -360,6 +360,15 @@
             "11": "https://v13.yuglf.com/202512/03/vzbupfg36G27/video/2000k_1080/hls/index.m3u8",
             "12": "https://v13.yuglf.com/202512/03/rJNYKWs7nH22/video/2000k_1080/hls/index.m3u8"
           }
+        },
+        "23": {
+          "name": "卧底洪小姐",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20260117-1/90cc4d42482e01a88c3433e35d11c3cd.jpg",
+          "url": "/vod/333551.html",
+          "episodes": {
+            "1": "https://v14.yuglf.com/202601/17/TpgThVcMxy27/video/2000k_1080/hls/index.m3u8",
+            "2": "https://v14.yuglf.com/202601/18/JwfNddEA5e27/video/2000k_1080/hls/index.m3u8"
+          }
         }
       }
     }
