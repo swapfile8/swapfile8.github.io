@@ -390,25 +390,6 @@
       "video_base_url": "",
       "video_url_format": 1,
       "videos": {
-        "22": {
-          "name": "操控游戏",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20251105-1/5445acb37679ab891b735f917e8641b9.jpg",
-          "url": "/vod/331729.html",
-          "episodes": {
-            "1": "https://v13.yuglf.com/202511/05/KiXTd8Tcpr20/video/2000k_1080/hls/index.m3u8",
-            "2": "https://v13.yuglf.com/202511/05/JnvDdiCqL922/video/2000k_1080/hls/index.m3u8",
-            "3": "https://v13.yuglf.com/202511/05/yMCTj4b6n323/video/2000k_1080/hls/index.m3u8",
-            "4": "https://v14.yuglf.com/202511/05/csz7dimmK221/video/2000k_1080/hls/index.m3u8",
-            "5": "https://v13.yuglf.com/202511/12/EHCYyZ8Mst24/video/2000k_1080/hls/index.m3u8",
-            "6": "https://v14.yuglf.com/202511/12/eqfnDAAuTu20/video/2000k_1080/hls/index.m3u8",
-            "7": "https://v13.yuglf.com/202511/19/w8BxPWyamN22/video/2000k_1080/hls/index.m3u8",
-            "8": "https://v14.yuglf.com/202511/19/EwBbyEdfMc19/video/2000k_1080/hls/index.m3u8",
-            "9": "https://v14.yuglf.com/202511/26/ABhr0kNQ3s21/video/2000k_1080/hls/index.m3u8",
-            "10": "https://v13.yuglf.com/202511/26/4VZ7n8gdpk20/video/2000k_1080/hls/index.m3u8",
-            "11": "https://v13.yuglf.com/202512/03/vzbupfg36G27/video/2000k_1080/hls/index.m3u8",
-            "12": "https://v13.yuglf.com/202512/03/rJNYKWs7nH22/video/2000k_1080/hls/index.m3u8"
-          }
-        },
         "23": {
           "name": "卧底洪小姐",
           "image": "https://img.avdb.me/chinaq/upload/vod/20260117-1/90cc4d42482e01a88c3433e35d11c3cd.jpg",
