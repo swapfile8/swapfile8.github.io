@@ -371,7 +371,7 @@
     },
     "gimy": {
       "site_base_url": "https://gimyai.tv",
-      "video_base_url": "https://raw.githubusercontent.com/swapfile8/api-test/main/vr2",
+      "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
         "1": {
