@@ -373,17 +373,7 @@
       "site_base_url": "https://gimyai.tv",
       "video_base_url": "https://raw.githubusercontent.com/swapfile8/api-test/main/vr2",
       "video_url_format": 3,
-      "videos": {
-        "2": {
-          "name": "臥底洪小姐",
-          "image": "https://img.1777cdn.com/upload/vod/20260117-1/41153268833cb0183aeb77f8f32ed550.webp",
-          "url": "/vod/423691.html",
-          "episodes": {
-            "1": "ep01-3htuJ2.m3u8",
-            "2": "ep02-L0hPVP.m3u8"
-          }
-        }
-      }
+      "videos": {}
     },
     "imaple": {
       "site_base_url": "https://imaple.app",
