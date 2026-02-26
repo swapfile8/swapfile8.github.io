@@ -375,17 +375,7 @@
       "site_base_url": "https://imaple.app",
       "video_base_url": "",
       "video_url_format": 1,
-      "videos": {
-        "23": {
-          "name": "卧底洪小姐",
-          "image": "https://img.avdb.me/chinaq/upload/vod/20260117-1/90cc4d42482e01a88c3433e35d11c3cd.jpg",
-          "url": "/vod/333551.html",
-          "episodes": {
-            "1": "https://v14.yuglf.com/202601/17/TpgThVcMxy27/video/2000k_1080/hls/index.m3u8",
-            "2": "https://v14.yuglf.com/202601/18/JwfNddEA5e27/video/2000k_1080/hls/index.m3u8"
-          }
-        }
-      }
+      "videos": {}
     }
   }
 }
