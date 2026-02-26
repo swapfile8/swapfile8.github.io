@@ -19,6 +19,7 @@
     "imaple": {
       "line": ["卧龍雲", "索尼雲"],
       "pattern": "<script[^>]*>\\s*var\\s+player_(?:data|aaaa)\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
+    }
   },
   "sites": {
     "bdys": {
