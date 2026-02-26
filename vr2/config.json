@@ -375,7 +375,27 @@
       "site_base_url": "https://imaple.app",
       "video_base_url": "",
       "video_url_format": 1,
-      "videos": {}
+      "videos": {
+        "1": {
+          "name": "臥底洪小姐",
+          "image": "https://img.avdb.me/chinaq/upload/vod/20260117-1/90cc4d42482e01a88c3433e35d11c3cd.jpg",
+          "url": "/vod/333551.html",
+          "episodes": {
+            "1": "https://cdn.wlcdn99.com:777/12fbfb21/index.m3u8",
+            "2": "https://cdn.wlcdn99.com:777/ea0bc0fc/index.m3u8",
+            "3": "https://cdn.wlcdn99.com:777/088207be/index.m3u8",
+            "4": "https://cdn.wlcdn99.com:777/0c2ec3dd/index.m3u8",
+            "5": "https://cdn.wlcdn99.com:777/31f0bd8b/index.m3u8",
+            "6": "https://cdn.wlcdn99.com:777/7860bde7/index.m3u8",
+            "7": "https://cdn.wlcdn99.com:777/c52481d5/index.m3u8",
+            "8": "https://cdn.wlcdn99.com:777/fb802a36/index.m3u8",
+            "9": "https://cdn.wlcdn99.com:777/a5bbd5ea/index.m3u8",
+            "10": "https://cdn.wlcdn99.com:777/91383d63/index.m3u8",
+            "11": "https://cdn.wlcdn99.com:777/c09331b3/index.m3u8",
+            "12": "https://cdn.wlcdn99.com:777/d088e287/index.m3u8"
+          }
+        }
+      }
     }
   }
 }
