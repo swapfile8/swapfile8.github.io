@@ -2935,6 +2935,138 @@
       "m": []
     }
   },
+  "201013": {
+    "pid": "201013",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/72fe80484ca64e2791736be643478fc6?x-expires=1772156134170&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/c4dc6534106b7f7e341b0c5448a9564b/69a1129f/video/tos/useast2a/tos-useast2a-v-0051/oIugVqB5iCyW0SgT5mGNAATBM4hEEkXfo0CLbi/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_febb5eed-b1b7-4e4f-8d89-cef36a9bdaaf.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201014": {
+    "pid": "201014",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/d5f2673a8f3445bd99684cd941b00d54?x-expires=1772156133960&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/614785ffb1dafa9a59c622070f472e7d/69a12a9d/video/tos/useast2a/tos-useast2a-v-0051/ooiWjBc6EEz9vvqFRUaiAgBSsai9Q2ajxpSAK/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_d4c4e9ee-5c46-43cd-a2ec-7eb4bd56395d.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201015": {
+    "pid": "201015",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/cc1fe3c3d3bb4f57b63a3beb5db73630?x-expires=1772156133607&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/11079b18c4a6e02389bc1624c06fdbbe/69a12aa8/video/tos/useast2a/tos-useast2a-v-0051/ocmcAAbAEJsbAEIp1oFfBBQLulfnrcI3N1DuDj/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_3cafa570-3b85-4b20-ad6e-78e19bd48218.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201016": {
+    "pid": "201016",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/7a52b1bfb7e141e4a42ea15db0756425?x-expires=1772156133985&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/95c9b31a3e6ffd372aa68d7bf132af7b/69a12ab5/video/tos/useast2a/tos-useast2a-v-0051/oIjQhQD4EFArEMBoXYEJUSDJBgExfNfgpRvOQp/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_3294b10d-4dbf-4c3a-8cea-15895587ee26.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201017": {
+    "pid": "201017",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/6d2bfa8e600c4033b2714bdf08bf7890?x-expires=1772156139993&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/2ee8e412b0b4471a92202f7de7a281f7/69a12ac1/video/tos/useast2a/tos-useast2a-v-0051/o8sgpNAEIfGAgk8LSUEECmSwpo0F2MWhEwwfee/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_fb4b473a-9eb4-4599-87db-c7ff71e87898.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201018": {
+    "pid": "201018",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/e45fb9782fb84d64be442f11e1a66717?x-expires=1772156133750&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/b9014ac5c7c7763f63b9061f169b3d40/69a12acd/video/tos/useast2a/tos-useast2a-v-0051/ooMnsyuGIERgfiGBElpDADkBoIY5JPafQAHFtN/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_f01d2693-3069-4b73-a77b-536df0f7d144.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201019": {
+    "pid": "201019",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/942b6b0ae9d842d89f331fc8e6f65555?x-expires=1772156134527&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/ba0d9ffb6f733755bbbe2cef2891f1aa/69a12ada/video/tos/useast2a/tos-useast2a-v-0051/oMEpBA4cEKpFAtlA2QfIoqrHNtPkDBulDfXIEJ/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_7d023671-82bf-4567-b8df-34fd1bd76dae.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201020": {
+    "pid": "201020",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/fcdf168be91c4042955a7d9de0c26396?x-expires=1772156134645&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/30caca247d0f988e9271587868bf8774/69a12af3/video/tos/useast2a/tos-useast2a-v-0051/owAyq0StQiE2WRTgZaBGUSPLQz1aaBAcAiJEG/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_2148bcd1-c652-4af7-9e02-b0c3584ba89f.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201021": {
+    "pid": "201021",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/4c7d814275fa47da8178a806fb35e9a0?x-expires=1772156134886&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/033997d5d178edba4f096109934745be/69a12b17/video/tos/useast2a/tos-useast2a-v-0051/o8UtiIaSB8ASLMg1a4STzZiEAqgvDgNE1BGLQ/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_aa959e72-e295-4082-b13c-ea379223fdd0.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201022": {
+    "pid": "201022",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/8f8b89f72bf7450e8c6906fc488b9994?x-expires=1772156134898&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/37ba0d4f01daa8c5f263127d4696abb7/69a12b2a/video/tos/useast2a/tos-useast2a-v-0051/okmiHBAJEzmkmXYSQf5WgECI06CSlBUg0ZioAg/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_a85f9ece-80c6-4934-a499-f2ae9b2d78e4.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201023": {
+    "pid": "201023",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/7312cf29ba974e57b55bb6cd4d9b8f51?x-expires=1772156135125&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "http://v16m-default.tiktokcdn.com/de0ed344ff80b6aaaa68b39c4086a1db/69a12b39/video/tos/useast2a/tos-useast2a-v-0051/o0IblsIgzeuT9kGzCgeeLxASydIR7a69CJQTSG/"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_f75d5cb7-a558-44c9-8ed8-8ccc60f034d0.m3u8.png#tos_hls3"
+      ]
+    }
+  },
   "201024": {
     "pid": "201024",
     "config": {
