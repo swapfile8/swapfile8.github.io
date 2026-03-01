@@ -407,16 +407,6 @@
             "11": "ep11-g17fAv.m3u8",
             "12": "ep12-N8UjLW.m3u8"
           }
-        },
-        "2": {
-          "name": "玫瑰叢生",
-          "image": "https://img.1777cdn.com/upload/vod/20260226-1/cb63481b9bce9569eb63dad811731f73.jpg",
-          "url": "/vod/428671.html",
-          "episodes": {
-            "1": "ep01-6i9cx2.m3u8",
-            "2": "ep02-MBmORy.m3u8",
-            "3": "ep03-M1yxt0.m3u8"
-          }
         }
       }
     },
