@@ -443,6 +443,13 @@
           }
         }
       }
+    },
+    "usb-drive": {
+      "site_base_url": "",
+      "video_base_url": "Movies",
+      "video_url_format": 1,
+      "videos": {
+      }
     }
   }
 }
