@@ -415,6 +415,23 @@
             "13": "ep13-5sxSqn.m3u8",
             "14": "ep14-RQ9PVH.m3u8"
           }
+        },
+        "2": {
+          "name": "訂閱男友",
+          "image": "https://img.1777cdn.com/upload/vod/20260306-1/467df1b51dd310cfc5a351026d8f7a3b.webp",
+          "url": "/vod/429352.html",
+          "episodes": {
+            "1": "ep01-fnges1.m3u8",
+            "2": "ep02-e99jVI.m3u8",
+            "3": "ep03-GsoEJZ.m3u8",
+            "4": "ep04-UVtV8Y.m3u8",
+            "5": "ep05-fw8FGq.m3u8",
+            "6": "ep06-PwhjXa.m3u8",
+            "7": "ep07-cXNGnl.m3u8",
+            "8": "ep08-NR6BfD.m3u8",
+            "9": "ep09-977HA3.m3u8",
+            "10": "ep10-4wVrZu.m3u8"
+          }
         }
       }
     },
