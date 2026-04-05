@@ -307,17 +307,6 @@
             "6": 201608,
             "7": 201609
           }
-        },
-        "115": {
-          "name": "魔女之吻",
-          "image": "https://wework.qpic.cn/wwpic3az/548018_NtNQAP10Q26wuZO_1773600432/0",
-          "url": "/hanju/26792.htm",
-          "total_episodes": "12",
-          "episodes": {
-            "1": 201283,
-            "2": 201284,
-            "3": 201285
-          }
         }
       }
     },
@@ -379,21 +368,6 @@
             "12": "ep12-5rOV5a6Y.m3u8",
             "13": "ep13-5rOV5a6Y.m3u8",
             "14": "ep14-5rOV5a6Y.m3u8"
-          }
-        },
-        "5": {
-          "name": "鋼鐵森林",
-          "image": "https://img.1777cdn.com/upload/vod/20260403-1/05d145f36b2136bd04f6dc45e9b1861e.jpg",
-          "url": "/vod/431981.html",
-          "episodes": {
-            "1": "ep01-6Yu86ZC1.m3u8",
-            "2": "ep02-6Yu86ZC1.m3u8",
-            "3": "ep03-6Yu86ZC1.m3u8",
-            "4": "ep04-6Yu86ZC1.m3u8",
-            "5": "ep05-6Yu86ZC1.m3u8",
-            "6": "ep06-6Yu86ZC1.m3u8",
-            "7": "ep07-6Yu86ZC1.m3u8",
-            "8": "ep08-6Yu86ZC1.m3u8"
           }
         }
       }
