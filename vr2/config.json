@@ -462,6 +462,16 @@
             "1": "ep01-MjHkuJbn.m3u8",
             "2": "ep02-MjHkuJbn.m3u8"
           }
+        },
+        "7": {
+          "name": "柔美的細胞小將第三季",
+          "image": "https://img.1777cdn.com/upload/vod/20260413-1/80cdeb738f9409ac6ec4b32adf054ede.jpg",
+          "url": "/vod/445680.html",
+          "total_episodes": null,
+          "episodes": {
+            "1": "ep01-5p+U576O.m3u8",
+            "2": "ep02-5p+U576O.m3u8"
+          }
         }
       }
     },
