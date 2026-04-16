@@ -2508,6 +2508,19 @@
       ]
     }
   },
+  "201620": {
+    "pid": "201620",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/8fd21805bc8a426c82cdb1ef55805492?x-expires=1776348021136&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/0b9d21a3f57f5b0593d6189daeff95b4/8604640c/video/tos/alisg/tos-alisg-v-26190a-sg/oglBAq0fHSVpiBx3Ee2S5X6BgisAUkAH270rEA/",
+        "https://p16a.hypstarcdn.com/obj/tos-maliva-o-0000-us/oYGIDA72EFAGF0AQABWDJh9QlRsAnwpkpB5fCe?x-expires=1776348021310&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_d38f76eb-8468-4423-8e41-a58712fc55b4.m3u8.png#tos_hls3"
+      ]
+    }
+  },
   "201621": {
     "pid": "201621",
     "config": {
@@ -2544,6 +2557,32 @@
       ],
       "m": [
         "https://vod.xlys.cc.ua/hls_tos_hls3_2c8f6d25-6382-40b4-b6f6-075c96078be0.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201624": {
+    "pid": "201624",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/9875ccab783e47fd8ff5c1d452c6241e?x-expires=1776348021191&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/e290c9dbe99efe2ce2fff79676164eab/86046f77/video/tos/alisg/tos-alisg-v-26190a-sg/oIS3qAVgcEpYBqNf2HEAY0B0ApViiAJTAwKAY6/",
+        "https://p16-sg.toutiao50.com/obj/tos-maliva-o-0000-us/osABqJpAlgytY25SDBE4Z0FDSAACrQfeEWDAkr?x-expires=1776348021371&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_7f3599c9-f889-4c0a-b53a-04a135d5f12d.m3u8.png#tos_hls3"
+      ]
+    }
+  },
+  "201625": {
+    "pid": "201625",
+    "config": {
+      "v": [
+        "https://p3-tt.byteimg.com/obj/tos-cn-i-qvj2lq49k0/4a6679de100c44d19578cc611dafcd76?x-expires=1776348021485&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM%3D",
+        "https://v16m-default.akamaized.net/2648be0a914782bccc25cea6ae51adfc/860464df/video/tos/alisg/tos-alisg-v-26190a-sg/ocxdoiArMSEavAABHEmlQwOKYgiAMD2YV4JOE/",
+        "https://p16-webcast-hypstarcdn.byteimg.com/obj/tos-maliva-o-0000-us/oAFruA1p0APoBNoAEw5lDBWCJjSfAEeADGuQED?x-expires=1776348021673&x-signature=6JrpWB9fmcI3ClBOaRtCmliNKUM"
+      ],
+      "m": [
+        "https://vod.xlys.cc.ua/hls_tos_hls3_449fc5a7-8bce-4443-97e6-1780c0c2f0a6.m3u8.png#tos_hls3"
       ]
     }
   }
