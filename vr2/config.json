@@ -388,7 +388,9 @@
           "total_episodes": null,
           "episodes": {
             "1": "ep01-5p-U576O.m3u8",
-            "2": "ep02-5p-U576O.m3u8"
+            "2": "ep02-5p-U576O.m3u8",
+            "3": "ep03-5p-U576O.m3u8",
+            "4": "ep04-5p-U576O.m3u8"
           }
         }
       }
