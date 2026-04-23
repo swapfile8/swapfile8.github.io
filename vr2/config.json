@@ -352,36 +352,6 @@
             "3": "ep03-5p-U576O.m3u8",
             "4": "ep04-5p-U576O.m3u8"
           }
-        },
-        "8": {
-          "name": "危險關係",
-          "image": "https://img.1777cdn.com/upload/vod/20260401-1/61f7ba3211d5375ece550619decb404c.jpg",
-          "url": "/vod/431747.html",
-          "total_episodes": 22,
-          "episodes": {
-            "1": "ep01-5Y2x6Zqq.m3u8",
-            "2": "ep02-5Y2x6Zqq.m3u8",
-            "3": "ep03-5Y2x6Zqq.m3u8",
-            "4": "ep04-5Y2x6Zqq.m3u8",
-            "5": "ep05-5Y2x6Zqq.m3u8",
-            "6": "ep06-5Y2x6Zqq.m3u8",
-            "7": "ep07-5Y2x6Zqq.m3u8",
-            "8": "ep08-5Y2x6Zqq.m3u8",
-            "9": "ep09-5Y2x6Zqq.m3u8",
-            "10": "ep10-5Y2x6Zqq.m3u8",
-            "11": "ep11-5Y2x6Zqq.m3u8",
-            "12": "ep12-5Y2x6Zqq.m3u8",
-            "13": "ep13-5Y2x6Zqq.m3u8",
-            "14": "ep14-5Y2x6Zqq.m3u8",
-            "15": "ep15-5Y2x6Zqq.m3u8",
-            "16": "ep16-5Y2x6Zqq.m3u8",
-            "17": "ep17-5Y2x6Zqq.m3u8",
-            "18": "ep18-5Y2x6Zqq.m3u8",
-            "19": "ep19-5Y2x6Zqq.m3u8",
-            "20": "ep20-5Y2x6Zqq.m3u8",
-            "21": "ep21-5Y2x6Zqq.m3u8",
-            "22": "ep22-5Y2x6Zqq.m3u8"
-          }
         }
       }
     },
