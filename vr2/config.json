@@ -18,7 +18,7 @@
         "非凡雲",
         "暴風雲"
       ],
-      "pattern": "<script[^>]*>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;",
+      "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
     },
     "imaple": {
