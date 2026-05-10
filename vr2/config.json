@@ -10,7 +10,8 @@
   "scraper": {
     "bdys": {
       "use_pid": true,
-      "pattern": "<script>(?<script>.*?pid\\s*=\\s*(?<pid>\\d+).*?)</script>"
+      "pattern": "<script[^>]*>(?<script>(?:(?!</script>).)*pid\\s*=\\s*(?<pid>\\d+).*?)</script>",
+      "pattern.old": "<script>(?<script>.*?pid\\s*=\\s*(?<pid>\\d+).*?)</script>"
     },
     "gimy": {
       "line": [
