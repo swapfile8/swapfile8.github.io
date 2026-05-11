@@ -360,6 +360,17 @@
             "7": 202301,
             "8": 202302
           }
+        },
+        "125": {
+          "name": "主角",
+          "image": "https://wework.qpic.cn/wwpic3az/754308_KPYfAEG7S7-uGtw_1778426665/0",
+          "url": "/guoju/26877.htm",
+          "total_episodes": 48,
+          "episodes": {
+            "1": 202309,
+            "2": 202310,
+            "3": 202311
+          }
         }
       }
     },
