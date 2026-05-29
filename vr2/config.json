@@ -15,10 +15,8 @@
     },
     "gimy": {
       "line": [
-        "高清線路D ᴴᴰ ",
-        "4K畫質線路 ᴴᴰ",
-        "非凡雲",
-        "暴風雲"
+        "高清線路 ᴴᴰ",
+        "非凡雲"
       ],
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
