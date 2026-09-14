@@ -320,16 +320,6 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
-        "1": {
-          "name": "殺人者的購物中心2",
-          "image": "https://cdn.picsu.pics/upload/vod/20260722-1/4b0d9c0d02dd2f69bf1dd4fb1ce6ff8f.jpg",
-          "url": "/title/459889.html",
-          "total_episodes": 16,
-          "episodes": {
-            "1": "ep01-5q665Lq6.m3u8",
-            "2": "ep02-5q665Lq6.m3u8"
-          }
-        },
         "2": {
           "name": "現在不是外遇的問題",
           "image": "https://cdn.picsu.pics/upload/vod/20260731-1/d5abf0ec570f8f59fac27e9b8e3db4ef.jpg",
