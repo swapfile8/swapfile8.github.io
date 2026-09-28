@@ -20,13 +20,6 @@
       ],
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
-    },
-    "imaple": {
-      "line": [
-        "卧龍雲",
-        "索尼雲"
-      ],
-      "pattern": "<script[^>]*>\\s*var\\s+player_(?:data|aaaa)\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
     }
   },
   "sites": {
@@ -240,12 +233,6 @@
       "site_base_url": "https://gimytube.com",
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
-      "videos": {}
-    },
-    "imaple": {
-      "site_base_url": "https://imaple.app",
-      "video_base_url": "",
-      "video_url_format": 1,
       "videos": {}
     },
     "usb-drive": {
