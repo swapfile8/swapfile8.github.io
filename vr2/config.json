@@ -245,6 +245,24 @@
             "7": "ep07-6a2F5b2x.m3u8",
             "8": "ep08-6a2F5b2x.m3u8"
           }
+        },
+        "3": {
+          "name": "無可替代",
+          "image": "https://cdn.picsu.pics/upload/vod/20260928-1/72b7bd9e110de709dfaee9b863ce7895.webp",
+          "url": "/title/475282.html",
+          "total_episodes": 20,
+          "episodes": {
+            "1": "ep01-54Sh5Y-v.m3u8",
+            "2": "ep02-54Sh5Y-v.m3u8",
+            "3": "ep03-54Sh5Y-v.m3u8",
+            "4": "ep04-54Sh5Y-v.m3u8",
+            "5": "ep05-54Sh5Y-v.m3u8",
+            "6": "ep06-54Sh5Y-v.m3u8",
+            "7": "ep07-54Sh5Y-v.m3u8",
+            "8": "ep08-54Sh5Y-v.m3u8",
+            "9": "ep09-54Sh5Y-v.m3u8",
+            "10": "ep10-54Sh5Y-v.m3u8"
+          }
         }
       }
     },
