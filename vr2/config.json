@@ -220,6 +220,22 @@
             "9": "ep09-5oiR5LiN.m3u8",
             "10": "ep10-5oiR5LiN.m3u8"
           }
+        },
+        "2": {
+          "name": "魅影神捕",
+          "image": "https://cdn.picsu.pics/upload/vod/20261002-1/54cfa39367dd997f7cc8e05034595d5d.jpg",
+          "url": "/title/475906.html",
+          "total_episodes": 30,
+          "episodes": {
+            "1": "ep01-6a2F5b2x.m3u8",
+            "2": "ep02-6a2F5b2x.m3u8",
+            "3": "ep03-6a2F5b2x.m3u8",
+            "4": "ep04-6a2F5b2x.m3u8",
+            "5": "ep05-6a2F5b2x.m3u8",
+            "6": "ep06-6a2F5b2x.m3u8",
+            "7": "ep07-6a2F5b2x.m3u8",
+            "8": "ep08-6a2F5b2x.m3u8"
+          }
         }
       }
     },
