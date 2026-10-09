@@ -203,33 +203,6 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
-        "1": {
-          "name": "我不是大師",
-          "image": "https://cdn.picsu.pics/upload/vod/20260924-1/129866ba2274d148c05aa78200240cd0.jpg",
-          "url": "/title/474618.html",
-          "total_episodes": 24,
-          "episodes": {
-            "1": "ep01-5oiR5LiN.m3u8",
-            "2": "ep02-5oiR5LiN.m3u8",
-            "3": "ep03-5oiR5LiN.m3u8",
-            "4": "ep04-5oiR5LiN.m3u8",
-            "5": "ep05-5oiR5LiN.m3u8",
-            "6": "ep06-5oiR5LiN.m3u8",
-            "7": "ep07-5oiR5LiN.m3u8",
-            "8": "ep08-5oiR5LiN.m3u8",
-            "9": "ep09-5oiR5LiN.m3u8",
-            "10": "ep10-5oiR5LiN.m3u8",
-            "11": "ep11-5oiR5LiN.m3u8",
-            "12": "ep12-5oiR5LiN.m3u8",
-            "13": "ep13-5oiR5LiN.m3u8",
-            "14": "ep14-5oiR5LiN.m3u8",
-            "15": "ep15-5oiR5LiN.m3u8",
-            "16": "ep16-5oiR5LiN.m3u8",
-            "17": "ep17-5oiR5LiN.m3u8",
-            "18": "ep18-5oiR5LiN.m3u8",
-            "19": "ep19-5oiR5LiN.m3u8"
-          }
-        },
         "2": {
           "name": "魅影神捕",
           "image": "https://cdn.picsu.pics/upload/vod/20261002-1/54cfa39367dd997f7cc8e05034595d5d.jpg",
