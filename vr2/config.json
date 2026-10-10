@@ -285,6 +285,15 @@
           "episodes": {
             "1": "ep01-RG9jdG9y.m3u8"
           }
+        },
+        "7": {
+          "name": "綁架遊戲2026",
+          "image": "https://cdn.picsu.pics/upload/vod/20261006-1/3434695651983ce31e74e74d31181ce7.jpg",
+          "url": "/title/476816.html",
+          "total_episodes": null,
+          "episodes": {
+            "1": "ep01-57aB5p62.m3u8"
+          }
         }
       }
     },
