@@ -226,7 +226,8 @@
             "15": "ep15-6a2F5b2x.m3u8",
             "16": "ep16-6a2F5b2x.m3u8",
             "17": "ep17-6a2F5b2x.m3u8",
-            "18": "ep18-6a2F5b2x.m3u8"
+            "18": "ep18-6a2F5b2x.m3u8",
+            "19": "ep19-6a2F5b2x.m3u8"
           }
         },
         "3": {
@@ -284,15 +285,6 @@
           "total_episodes": 12,
           "episodes": {
             "1": "ep01-RG9jdG9y.m3u8"
-          }
-        },
-        "7": {
-          "name": "綁架遊戲2026",
-          "image": "https://cdn.picsu.pics/upload/vod/20261006-1/3434695651983ce31e74e74d31181ce7.jpg",
-          "url": "/title/476816.html",
-          "total_episodes": null,
-          "episodes": {
-            "1": "ep01-57aB5p62.m3u8"
           }
         }
       }
