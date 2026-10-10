@@ -16,7 +16,7 @@
     "gimy": {
       "line": [
         "天堂雲",
-        "高清線路 ᴴᴰ",
+        "無盡雲",
         "藍光線路 ᴴᴰ"
       ],
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
