@@ -276,6 +276,15 @@
           "episodes": {
             "1": "ep01-6I6T5aW9.m3u8"
           }
+        },
+        "6": {
+          "name": "Doctor X：白色黑手黨時代",
+          "image": "https://cdn.picsu.pics/upload/vod/20261009-1/81f475928b9e03671f1737dc010b712d.jpg",
+          "url": "/title/477412.html",
+          "total_episodes": 12,
+          "episodes": {
+            "1": "ep01-RG9jdG9y.m3u8"
+          }
         }
       }
     },
