@@ -260,13 +260,18 @@
         },
         "4": {
           "name": "美人餘",
-          "image": "https://cdn.picsu.pics/upload/vod/20261009-1/37b8b129a9f031a51caad899d82fee6e.jpg",
+          "image": "https://cdn.picsu.pics/upload/vod/20261011-1/b40726633c34389b3cd814e4845a20a9.jpg",
           "url": "/title/477318.html",
           "total_episodes": 28,
           "episodes": {
             "1": "ep01-576O5Lq6.m3u8",
             "2": "ep02-576O5Lq6.m3u8",
-            "3": "ep03-576O5Lq6.m3u8"
+            "3": "ep03-576O5Lq6.m3u8",
+            "4": "ep04-576O5Lq6.m3u8",
+            "5": "ep05-576O5Lq6.m3u8",
+            "6": "ep06-576O5Lq6.m3u8",
+            "7": "ep07-576O5Lq6.m3u8",
+            "8": "ep08-576O5Lq6.m3u8"
           }
         },
         "5": {
