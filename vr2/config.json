@@ -423,6 +423,18 @@
             "3": "ep03-6YaJ5aSi.m3u8",
             "4": "ep04-6YaJ5aSi.m3u8"
           }
+        },
+        "13": {
+          "name": "嫁金釵",
+          "image": "https://cdn.picsu.pics/upload/vod/20261016-1/03b83eb52e49804a15f704986ba5306f.jpg",
+          "url": "/title/478591.html",
+          "total_episodes": 30,
+          "episodes": {
+            "1": "ep01-5auB6YeR.m3u8",
+            "2": "ep02-5auB6YeR.m3u8",
+            "3": "ep03-5auB6YeR.m3u8",
+            "4": "ep04-5auB6YeR.m3u8"
+          }
         }
       }
     },
