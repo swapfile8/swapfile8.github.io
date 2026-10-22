@@ -402,6 +402,18 @@
             "13": "ep13-5auB6YeR.m3u8",
             "14": "ep14-5auB6YeR.m3u8"
           }
+        },
+        "14": {
+          "name": "小城良方",
+          "image": "https://cdn.picsu.pics/upload/vod/20261021-1/c0b60d58fdf7d37318318de1437293c3.jpg",
+          "url": "/title/479482.html",
+          "total_episodes": 29,
+          "episodes": {
+            "1": "ep01-5bCP5Z-O.m3u8",
+            "2": "ep02-5bCP5Z-O.m3u8",
+            "3": "ep03-5bCP5Z-O.m3u8",
+            "4": "ep04-5bCP5Z-O.m3u8"
+          }
         }
       }
     },
