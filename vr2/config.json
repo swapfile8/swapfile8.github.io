@@ -320,18 +320,6 @@
             "16": "ep16-5bCP5Z-O.m3u8"
           }
         },
-        "15": {
-          "name": "尚公主",
-          "image": "https://cdn.picsu.pics/upload/vod/20261023-1/a15cf5950f612b9e913c1b8631e792aa.jpg",
-          "url": "/title/479883.html",
-          "total_episodes": 40,
-          "episodes": {
-            "1": "ep01-5bCa5YWs.m3u8",
-            "2": "ep02-5bCa5YWs.m3u8",
-            "3": "ep03-5bCa5YWs.m3u8",
-            "4": "ep04-5bCa5YWs.m3u8"
-          }
-        },
         "16": {
           "name": "蒸蒸日上",
           "image": "https://cdn.picsu.pics/upload/vod/20261010-1/12ba18cb95b3864bdb5ad602af6e3b3c.webp",
