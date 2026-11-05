@@ -349,6 +349,18 @@
             "21": "ep21-6JK46JK4.m3u8",
             "22": "ep22-6JK46JK4.m3u8"
           }
+        },
+        "17": {
+          "name": "折月亮",
+          "image": "https://cdn.picsu.pics/upload/vod/20261105-1/cfa4bc3f5bd499b4eb4c4539162168e8.webp",
+          "url": "/title/482786.html",
+          "total_episodes": 27,
+          "episodes": {
+            "1": "ep01-5oqY5pyI.m3u8",
+            "2": "ep02-5oqY5pyI.m3u8",
+            "3": "ep03-5oqY5pyI.m3u8",
+            "4": "ep04-5oqY5pyI.m3u8"
+          }
         }
       }
     },
