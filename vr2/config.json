@@ -22,8 +22,7 @@
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
     },
-    "aigm": {
-    }
+    "aigm": {}
   },
   "sites": {
     "bdys": {
@@ -384,6 +383,22 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
+        "1": {
+          "name": "折月亮",
+          "image": "https://cdn2.picsu.pics/upload/vod/20261105-1/519c59a08f1cc9ce6754c8987558089d.jpg",
+          "url": "/play/Utxbf9XpM3s",
+          "total_episodes": 27,
+          "episodes": {
+            "1": "ep01-5oqY5pyI.m3u8",
+            "2": "ep02-5oqY5pyI.m3u8",
+            "3": "ep03-5oqY5pyI.m3u8",
+            "4": "ep04-5oqY5pyI.m3u8",
+            "5": "ep05-5oqY5pyI.m3u8",
+            "6": "ep06-5oqY5pyI.m3u8",
+            "7": "ep07-5oqY5pyI.m3u8",
+            "8": "ep08-5oqY5pyI.m3u8"
+          }
+        }
       }
     },
     "usb-drive": {
