@@ -384,19 +384,16 @@
       "video_url_format": 3,
       "videos": {
         "1": {
-          "name": "折月亮",
-          "image": "https://cdn2.picsu.pics/upload/vod/20261105-1/519c59a08f1cc9ce6754c8987558089d.jpg",
-          "url": "/play/Utxbf9XpM3s",
-          "total_episodes": 27,
+          "name": "莓好遇见你",
+          "image": "https://cdn2.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
+          "url": "/play/exS5nzrcDbG",
+          "total_episodes": null,
           "episodes": {
-            "1": "ep01-5oqY5pyI.m3u8",
-            "2": "ep02-5oqY5pyI.m3u8",
-            "3": "ep03-5oqY5pyI.m3u8",
-            "4": "ep04-5oqY5pyI.m3u8",
-            "5": "ep05-5oqY5pyI.m3u8",
-            "6": "ep06-5oqY5pyI.m3u8",
-            "7": "ep07-5oqY5pyI.m3u8",
-            "8": "ep08-5oqY5pyI.m3u8"
+            "1": "ep01-6I6T5aW9.m3u8",
+            "2": "ep02-6I6T5aW9.m3u8",
+            "3": "ep03-6I6T5aW9.m3u8",
+            "4": "ep04-6I6T5aW9.m3u8",
+            "5": "ep05-6I6T5aW9.m3u8"
           }
         }
       }
