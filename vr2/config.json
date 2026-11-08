@@ -22,8 +22,7 @@
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
     },
-    "aigm": {
-    }
+    "aigm": {}
   },
   "sites": {
     "bdys": {
@@ -384,6 +383,19 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
+        "1": {
+          "name": "莓好遇见你",
+          "image": "https://cdn2.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
+          "url": "/play/exS5nzrcDbG",
+          "total_episodes": null,
+          "episodes": {
+            "1": "ep01-6I6T5aW9.m3u8",
+            "2": "ep02-6I6T5aW9.m3u8",
+            "3": "ep03-6I6T5aW9.m3u8",
+            "4": "ep04-6I6T5aW9.m3u8",
+            "5": "ep05-6I6T5aW9.m3u8"
+          }
+        }
       }
     },
     "usb-drive": {
