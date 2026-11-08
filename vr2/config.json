@@ -141,6 +141,8 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
+      },
+      "videos-deprecated": {
         "5": {
           "name": "莓好遇見你",
           "image": "https://cdn.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
