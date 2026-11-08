@@ -21,6 +21,8 @@
       ],
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
+    },
+    "aigm": {
     }
   },
   "sites": {
@@ -375,6 +377,13 @@
             "4": "ep04-6LC36Zuo.m3u8"
           }
         }
+      }
+    },
+    "aigm": {
+      "site_base_url": "https://aigm.tv",
+      "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
+      "video_url_format": 3,
+      "videos": {
       }
     },
     "usb-drive": {
