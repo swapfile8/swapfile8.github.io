@@ -21,6 +21,8 @@
       ],
       "pattern": "<script[^>]*>(?<script>\\s*var\\s+player_aaaa\\s*=\\s*(?<data>\\{.+?})\\s*;.*?)</script>",
       "pattern.old": "<script[^>]*>\\s*var\\s+player_data\\s*=\\s*(?<data>\\{.+?})\\s*</script>"
+    },
+    "aigm": {
     }
   },
   "sites": {
