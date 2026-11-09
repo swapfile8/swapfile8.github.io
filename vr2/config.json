@@ -462,6 +462,24 @@
             "9": "ep09-5oqY5pyI.m3u8",
             "10": "ep10-5oqY5pyI.m3u8"
           }
+        },
+        "6": {
+          "name": "谷雨",
+          "image": "https://cdn2.picsu.pics/upload/vod/20261105-1/a5409af48ed73db757c4b93f101a2226.webp",
+          "url": "/play/AanQdkmO57c",
+          "total_episodes": 5,
+          "episodes": {
+            "1": "ep01-6LC36Zuo.m3u8",
+            "2": "ep02-6LC36Zuo.m3u8",
+            "3": "ep03-6LC36Zuo.m3u8",
+            "4": "ep04-6LC36Zuo.m3u8",
+            "5": "ep05-6LC36Zuo.m3u8",
+            "6": "ep06-6LC36Zuo.m3u8",
+            "7": "ep07-6LC36Zuo.m3u8",
+            "8": "ep08-6LC36Zuo.m3u8",
+            "9": "ep09-6LC36Zuo.m3u8",
+            "10": "ep10-6LC36Zuo.m3u8"
+          }
         }
       }
     },
