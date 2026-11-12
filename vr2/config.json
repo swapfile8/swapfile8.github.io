@@ -35,7 +35,8 @@
       "site_base_url": "https://v.xl02.eu.cc",
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
-      "videos": {
+      "videos": {},
+      "videos-deprecated": {
         "93": {
           "name": "模范出租车3",
           "image": "https://wework.qpic.cn/wwpic3az/877381_iBq5Z1stQ4mkRlJ_1767615963/0",
@@ -140,8 +141,7 @@
       "site_base_url": "https://gimytube.com",
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
-      "videos": {},
-      "videos-deprecated": {
+      "videos": {
         "5": {
           "name": "莓好遇見你",
           "image": "https://cdn.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
