@@ -385,7 +385,7 @@
       "video_url_format": 3,
       "videos": {
         "1": {
-          "name": "莓好遇见你",
+          "name": "莓好遇見你",
           "image": "https://cdn2.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
           "url": "/play/exS5nzrcDbG",
           "total_episodes": null,
@@ -394,7 +394,8 @@
             "2": "ep02-6I6T5aW9.m3u8",
             "3": "ep03-6I6T5aW9.m3u8",
             "4": "ep04-6I6T5aW9.m3u8",
-            "5": "ep05-6I6T5aW9.m3u8"
+            "5": "ep05-6I6T5aW9.m3u8",
+            "6": "ep06-6I6T5aW9.m3u8"
           }
         },
         "2": {
