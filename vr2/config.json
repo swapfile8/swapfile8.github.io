@@ -35,8 +35,7 @@
       "site_base_url": "https://v.xl02.eu.cc",
       "video_base_url": "https://vr2-resolver.netlify.app/b/vod",
       "video_url_format": 2,
-      "videos": {},
-      "videos-deprecated": {
+      "videos": {
         "93": {
           "name": "模范出租车3",
           "image": "https://wework.qpic.cn/wwpic3az/877381_iBq5Z1stQ4mkRlJ_1767615963/0",
@@ -142,6 +141,22 @@
       "video_base_url": "https://bitbucket.org/me-space/vr2-alt-store/raw/master/vr2/gimy",
       "video_url_format": 3,
       "videos": {
+        "1": {
+          "name": "再婚皇后",
+          "image": "https://cdn.picsu.pics/upload/vod/20261103-1/653728b768c739d4217e486c1c0d0701.jpg",
+          "url": "/title/482152.html",
+          "total_episodes": 10,
+          "episodes": {
+            "1": "ep01-5YaN5ama.m3u8",
+            "2": "ep02-5YaN5ama.m3u8",
+            "3": "ep03-5YaN5ama.m3u8",
+            "4": "ep04-5YaN5ama.m3u8",
+            "5": "ep05-5YaN5ama.m3u8",
+            "6": "ep06-5YaN5ama.m3u8"
+          }
+        }
+      },
+      "videos-deprecated": {
         "5": {
           "name": "莓好遇見你",
           "image": "https://cdn.picsu.pics/upload/vod/20261007-1/e5c3a2d481e8db579e6aac952ff61191.jpg",
@@ -184,6 +199,54 @@
             "5": "ep05-57aB5p62.m3u8"
           }
         },
+        "10": {
+          "name": "玉簟秋",
+          "image": "https://cdn.picsu.pics/upload/vod/20261012-1/3e42d7d77d9c8a6ef8f68f15dce40572.jpg",
+          "url": "/title/477824.html",
+          "total_episodes": 40,
+          "episodes": {
+            "1": "ep01-546J57Cf.m3u8",
+            "2": "ep02-546J57Cf.m3u8",
+            "3": "ep03-546J57Cf.m3u8",
+            "4": "ep04-546J57Cf.m3u8",
+            "5": "ep05-546J57Cf.m3u8",
+            "6": "ep06-546J57Cf.m3u8",
+            "7": "ep07-546J57Cf.m3u8",
+            "8": "ep08-546J57Cf.m3u8",
+            "9": "ep09-546J57Cf.m3u8",
+            "10": "ep10-546J57Cf.m3u8",
+            "11": "ep11-546J57Cf.m3u8",
+            "12": "ep12-546J57Cf.m3u8",
+            "13": "ep13-546J57Cf.m3u8",
+            "14": "ep14-546J57Cf.m3u8",
+            "15": "ep15-546J57Cf.m3u8",
+            "16": "ep16-546J57Cf.m3u8",
+            "17": "ep17-546J57Cf.m3u8",
+            "18": "ep18-546J57Cf.m3u8",
+            "19": "ep19-546J57Cf.m3u8",
+            "20": "ep20-546J57Cf.m3u8",
+            "21": "ep21-546J57Cf.m3u8",
+            "22": "ep22-546J57Cf.m3u8",
+            "23": "ep23-546J57Cf.m3u8",
+            "24": "ep24-546J57Cf.m3u8",
+            "25": "ep25-546J57Cf.m3u8",
+            "26": "ep26-546J57Cf.m3u8",
+            "27": "ep27-546J57Cf.m3u8",
+            "28": "ep28-546J57Cf.m3u8",
+            "29": "ep29-546J57Cf.m3u8",
+            "30": "ep30-546J57Cf.m3u8",
+            "31": "ep31-546J57Cf.m3u8",
+            "32": "ep32-546J57Cf.m3u8",
+            "33": "ep33-546J57Cf.m3u8",
+            "34": "ep34-546J57Cf.m3u8",
+            "35": "ep35-546J57Cf.m3u8",
+            "36": "ep36-546J57Cf.m3u8",
+            "37": "ep37-546J57Cf.m3u8",
+            "38": "ep38-546J57Cf.m3u8",
+            "39": "ep39-546J57Cf.m3u8",
+            "40": "ep40-546J57Cf.m3u8"
+          }
+        },
         "11": {
           "name": "百日謊言",
           "image": "https://cdn.picsu.pics/upload/vod/20261011-1/2a3d58207180ba571126ca14cc53f799.jpg",
@@ -198,6 +261,111 @@
             "6": "ep06-55m-5pel.m3u8",
             "7": "ep07-55m-5pel.m3u8",
             "8": "ep08-55m-5pel.m3u8"
+          }
+        },
+        "13": {
+          "name": "嫁金釵",
+          "image": "https://cdn.picsu.pics/upload/vod/20261016-1/03b83eb52e49804a15f704986ba5306f.jpg",
+          "url": "/title/478591.html",
+          "total_episodes": 30,
+          "episodes": {
+            "1": "ep01-5auB6YeR.m3u8",
+            "2": "ep02-5auB6YeR.m3u8",
+            "3": "ep03-5auB6YeR.m3u8",
+            "4": "ep04-5auB6YeR.m3u8",
+            "5": "ep05-5auB6YeR.m3u8",
+            "6": "ep06-5auB6YeR.m3u8",
+            "7": "ep07-5auB6YeR.m3u8",
+            "8": "ep08-5auB6YeR.m3u8",
+            "9": "ep09-5auB6YeR.m3u8",
+            "10": "ep10-5auB6YeR.m3u8",
+            "11": "ep11-5auB6YeR.m3u8",
+            "12": "ep12-5auB6YeR.m3u8",
+            "13": "ep13-5auB6YeR.m3u8",
+            "14": "ep14-5auB6YeR.m3u8",
+            "15": "ep15-5auB6YeR.m3u8",
+            "16": "ep16-5auB6YeR.m3u8",
+            "17": "ep17-5auB6YeR.m3u8",
+            "18": "ep18-5auB6YeR.m3u8",
+            "19": "ep19-5auB6YeR.m3u8",
+            "20": "ep20-5auB6YeR.m3u8",
+            "21": "ep21-5auB6YeR.m3u8",
+            "22": "ep22-5auB6YeR.m3u8",
+            "23": "ep23-5auB6YeR.m3u8",
+            "24": "ep24-5auB6YeR.m3u8",
+            "25": "ep25-5auB6YeR.m3u8",
+            "26": "ep26-5auB6YeR.m3u8",
+            "27": "ep27-5auB6YeR.m3u8",
+            "28": "ep28-5auB6YeR.m3u8",
+            "29": "ep29-5auB6YeR.m3u8",
+            "30": "ep30-5auB6YeR.m3u8"
+          }
+        },
+        "14": {
+          "name": "小城良方",
+          "image": "https://cdn.picsu.pics/upload/vod/20261021-1/c0b60d58fdf7d37318318de1437293c3.jpg",
+          "url": "/title/479482.html",
+          "total_episodes": 29,
+          "episodes": {
+            "1": "ep01-5bCP5Z-O.m3u8",
+            "2": "ep02-5bCP5Z-O.m3u8",
+            "3": "ep03-5bCP5Z-O.m3u8",
+            "4": "ep04-5bCP5Z-O.m3u8",
+            "5": "ep05-5bCP5Z-O.m3u8",
+            "6": "ep06-5bCP5Z-O.m3u8",
+            "7": "ep07-5bCP5Z-O.m3u8",
+            "8": "ep08-5bCP5Z-O.m3u8",
+            "9": "ep09-5bCP5Z-O.m3u8",
+            "10": "ep10-5bCP5Z-O.m3u8",
+            "11": "ep11-5bCP5Z-O.m3u8",
+            "12": "ep12-5bCP5Z-O.m3u8",
+            "13": "ep13-5bCP5Z-O.m3u8",
+            "14": "ep14-5bCP5Z-O.m3u8",
+            "15": "ep15-5bCP5Z-O.m3u8",
+            "16": "ep16-5bCP5Z-O.m3u8",
+            "17": "ep17-5bCP5Z-O.m3u8",
+            "18": "ep18-5bCP5Z-O.m3u8",
+            "19": "ep19-5bCP5Z-O.m3u8",
+            "20": "ep20-5bCP5Z-O.m3u8",
+            "21": "ep21-5bCP5Z-O.m3u8",
+            "22": "ep22-5bCP5Z-O.m3u8",
+            "23": "ep23-5bCP5Z-O.m3u8",
+            "24": "ep24-5bCP5Z-O.m3u8",
+            "25": "ep25-5bCP5Z-O.m3u8",
+            "26": "ep26-5bCP5Z-O.m3u8",
+            "27": "ep27-5bCP5Z-O.m3u8",
+            "28": "ep28-5bCP5Z-O.m3u8",
+            "29": "ep29-5bCP5Z-O.m3u8"
+          }
+        },
+        "16": {
+          "name": "蒸蒸日上",
+          "image": "https://cdn.picsu.pics/upload/vod/20261010-1/12ba18cb95b3864bdb5ad602af6e3b3c.webp",
+          "url": "/title/477527.html",
+          "total_episodes": 22,
+          "episodes": {
+            "1": "ep01-6JK46JK4.m3u8",
+            "2": "ep02-6JK46JK4.m3u8",
+            "3": "ep03-6JK46JK4.m3u8",
+            "4": "ep04-6JK46JK4.m3u8",
+            "5": "ep05-6JK46JK4.m3u8",
+            "6": "ep06-6JK46JK4.m3u8",
+            "7": "ep07-6JK46JK4.m3u8",
+            "8": "ep08-6JK46JK4.m3u8",
+            "9": "ep09-6JK46JK4.m3u8",
+            "10": "ep10-6JK46JK4.m3u8",
+            "11": "ep11-6JK46JK4.m3u8",
+            "12": "ep12-6JK46JK4.m3u8",
+            "13": "ep13-6JK46JK4.m3u8",
+            "14": "ep14-6JK46JK4.m3u8",
+            "15": "ep15-6JK46JK4.m3u8",
+            "16": "ep16-6JK46JK4.m3u8",
+            "17": "ep17-6JK46JK4.m3u8",
+            "18": "ep18-6JK46JK4.m3u8",
+            "19": "ep19-6JK46JK4.m3u8",
+            "20": "ep20-6JK46JK4.m3u8",
+            "21": "ep21-6JK46JK4.m3u8",
+            "22": "ep22-6JK46JK4.m3u8"
           }
         },
         "17": {
@@ -316,9 +484,7 @@
             "13": "ep13-5oqY5pyI.m3u8",
             "14": "ep14-5oqY5pyI.m3u8",
             "15": "ep15-5oqY5pyI.m3u8",
-            "16": "ep16-5oqY5pyI.m3u8",
-            "17": "ep17-5oqY5pyI.m3u8",
-            "18": "ep18-5oqY5pyI.m3u8"
+            "16": "ep16-5oqY5pyI.m3u8"
           }
         },
         "6": {
