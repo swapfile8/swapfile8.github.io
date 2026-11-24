@@ -302,6 +302,24 @@
             "7": "ep07-5YaN5ama.m3u8",
             "8": "ep08-5YaN5ama.m3u8"
           }
+        },
+        "20": {
+          "name": "兩京十五日",
+          "image": "https://cdn.picsu.pics/upload/vod/20261120-1/32a5ae90287154f245d65f1eb1a707df.jpg",
+          "url": "/title/488203.html",
+          "total_episodes": 26,
+          "episodes": {
+            "1": "ep01-5YWp5Lqs.m3u8",
+            "2": "ep02-5YWp5Lqs.m3u8",
+            "3": "ep03-5YWp5Lqs.m3u8",
+            "4": "ep04-5YWp5Lqs.m3u8",
+            "5": "ep05-5YWp5Lqs.m3u8",
+            "6": "ep06-5YWp5Lqs.m3u8",
+            "7": "ep07-5YWp5Lqs.m3u8",
+            "8": "ep08-5YWp5Lqs.m3u8",
+            "9": "ep09-5YWp5Lqs.m3u8",
+            "10": "ep10-5YWp5Lqs.m3u8"
+          }
         }
       }
     },
