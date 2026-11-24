@@ -320,6 +320,20 @@
             "9": "ep09-5YWp5Lqs.m3u8",
             "10": "ep10-5YWp5Lqs.m3u8"
           }
+        },
+        "21": {
+          "name": "無聲的迴響",
+          "image": "https://cdn.picsu.pics/upload/vod/20261120-1/c937710a55416865ec0650cea36d8c38.jpg",
+          "url": "/title/488102.html",
+          "total_episodes": 14,
+          "episodes": {
+            "1": "ep01-54Sh6IGy.m3u8",
+            "2": "ep02-54Sh6IGy.m3u8",
+            "3": "ep03-54Sh6IGy.m3u8",
+            "4": "ep04-54Sh6IGy.m3u8",
+            "5": "ep05-54Sh6IGy.m3u8",
+            "6": "ep06-54Sh6IGy.m3u8"
+          }
         }
       }
     },
