@@ -351,6 +351,22 @@
             "10": "ep10-54Sh6IGy.m3u8",
             "11": "ep11-54Sh6IGy.m3u8"
           }
+        },
+        "22": {
+          "name": "風生水起2026",
+          "image": "https://cdn.picsu.pics/upload/vod/20261127-1/14de214d4e0f18fda301d9cf7625bb48.jpg",
+          "url": "/title/489364.html",
+          "total_episodes": null,
+          "episodes": {
+            "1": "ep01-6aKo55Sf.m3u8",
+            "2": "ep02-6aKo55Sf.m3u8",
+            "3": "ep03-6aKo55Sf.m3u8",
+            "4": "ep04-6aKo55Sf.m3u8",
+            "5": "ep05-6aKo55Sf.m3u8",
+            "6": "ep06-6aKo55Sf.m3u8",
+            "7": "ep07-6aKo55Sf.m3u8",
+            "8": "ep08-6aKo55Sf.m3u8"
+          }
         }
       }
     },
